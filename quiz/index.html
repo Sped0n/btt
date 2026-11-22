@@ -22,7 +22,8 @@
 </style>
 <h1>BTT practice</h1>
 <nav id="sessions" aria-label="Practice sessions">
-  <button id="all" disabled>Practice all</button>
+  <button id="all" disabled>New session</button>
+  <button id="resume" hidden>Resume session</button>
   <button id="missed" disabled>Review missed</button>
   <button id="review" hidden>Review flagged</button>
 </nav>
@@ -52,7 +53,9 @@ const el = id => document.getElementById(id);
 const letters = 'ABC';
 let ready = [], flagged = [], cardsById, missedKey, sessionKey, explanations;
 let missed = new Set(), session;
+const sessions = { all: null, missed: null };
 const current = () => cardsById.get(session.ids[session.index]);
+const inProgress = saved => saved && saved.index < saved.ids.length;
 
 function readSaved(key) {
   try { return JSON.parse(localStorage.getItem(key)); } catch { return null; }
@@ -62,9 +65,8 @@ function save(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* Storage is optional. */ }
 }
 
-function restoreSession() {
-  const saved = readSaved(sessionKey);
-  if (saved?.kind !== 'all' && saved?.kind !== 'missed') return null;
+function restoreSession(saved, kind) {
+  if (saved?.kind !== kind) return null;
   const readyIds = new Set(ready.map(card => card.id));
   const { ids, index, result } = saved;
   if (!Array.isArray(ids) || !ids.length || new Set(ids).size !== ids.length || !ids.every(id => readyIds.has(id))) return null;
@@ -85,16 +87,28 @@ function shuffled(cards) {
   return result;
 }
 
-function start(cards, kind) {
-  session = { ids: cards.map(card => card.id), index: 0, result: null, kind };
-  if (kind !== 'flagged') save(sessionKey, session);
+function saveSession() {
+  if (session.kind === 'flagged') return;
+  sessions[session.kind] = session;
+  save(sessionKey, { active: session.kind, ...sessions });
+}
+
+function openSession(next) {
+  session = next;
+  saveSession();
   render();
+}
+
+function start(cards, kind) {
+  openSession({ ids: cards.map(card => card.id), index: 0, result: null, kind });
 }
 
 function displayMissedCount() {
   const count = ready.filter(card => missed.has(card.id)).length;
-  el('missed').textContent = `Review missed (${count})`;
-  el('missed').disabled = count === 0;
+  const reviewing = inProgress(sessions.missed);
+  const button = el('missed');
+  button.textContent = `${reviewing && session.kind !== 'missed' ? 'Resume missed review' : 'Review missed'} (${count})`;
+  button.disabled = reviewing ? session.kind === 'missed' : count === 0;
 }
 
 function picture(src, alt) {
@@ -125,6 +139,8 @@ function render() {
   const card = current();
   const { kind, index, ids } = session;
   const label = { all: 'Card', missed: 'Missed card', flagged: 'Flagged card' }[kind];
+  el('resume').hidden = kind === 'all' || !sessions.all;
+  el('resume').textContent = inProgress(sessions.all) ? 'Resume session' : 'Back to session';
   displayMissedCount();
   el('status').textContent = card
     ? `${label} ${index + 1} of ${ids.length}`
@@ -227,7 +243,7 @@ function grade(result) {
   if (result === card.answer) missed.delete(card.id);
   else missed.add(card.id);
   save(missedKey, [...missed]);
-  save(sessionKey, session);
+  saveSession();
   displayMissedCount();
   displayAnswer();
   el('feedback').focus({ preventScroll: true });
@@ -238,12 +254,16 @@ function advance() {
   if (el('next').hidden || !current()) return;
   session.index++;
   session.result = null;
-  if (session.kind !== 'flagged') save(sessionKey, session);
+  saveSession();
   render();
 }
 
 el('all').onclick = () => start(shuffled(ready), 'all');
-el('missed').onclick = () => start(shuffled(ready.filter(card => missed.has(card.id))), 'missed');
+el('resume').onclick = () => openSession(sessions.all);
+el('missed').onclick = () => {
+  if (inProgress(sessions.missed)) openSession(sessions.missed);
+  else start(shuffled(ready.filter(card => missed.has(card.id))), 'missed');
+};
 el('review').onclick = () => start(flagged, 'flagged');
 el('reveal').onclick = () => grade('shown');
 el('next').onclick = advance;
@@ -284,8 +304,12 @@ try {
   el('all').disabled = !ready.length;
   el('review').hidden = !flagged.length;
   if (flagged.length) el('review').textContent = `Review flagged (${flagged.length})`;
-  session = restoreSession();
-  if (session) render();
+  const saved = readSaved(sessionKey);
+  sessions.all = restoreSession(saved?.all ?? saved, 'all');
+  sessions.missed = restoreSession(saved?.missed ?? saved, 'missed');
+  const active = saved?.active ?? saved?.kind;
+  const resume = active === 'missed' ? (sessions.missed ?? sessions.all) : (sessions.all ?? sessions.missed);
+  if (resume) openSession(resume);
   else if (!ready.length && flagged.length) start(flagged, 'flagged');
   else start(shuffled(ready), 'all');
 } catch (error) {

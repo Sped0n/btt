@@ -11,11 +11,13 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory quiz
 Open <http://127.0.0.1:8000>. The local quiz works without internet access, the
 extractor, the recording, or the handbooks.
 
-- **Practice all** starts a shuffled session. **Review missed** uses your missed questions.
+- **New session** starts a shuffled session. **Review missed** starts a separate
+  review. Use **Resume session** or **Resume missed review** to switch back.
 - Tap a choice to answer, **Show answer** to reveal, or **Next** to advance.
   Press A, B, C or 1, 2, 3 to answer, Space to reveal, or Enter to advance.
 - A wrong answer or reveal adds the question to **Review missed**. A correct
-  answer removes it. The browser saves the missed list and session across refreshes.
+  answer removes it. The browser saves the order, position, and current answer
+  for both sessions. Refreshing reopens the session you were using.
 - Tap an image to enlarge it. English and Simplified Chinese explanations appear
   after you answer or reveal.
 
