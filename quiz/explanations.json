@@ -1,0 +1,1938 @@
+{
+  "source": "btt-500q.webm:251208068",
+  "cards": {
+    "q0000000": "q0000000",
+    "q0008600": "q0008600",
+    "q0017200": "q0017200",
+    "q0025800": "q0017200",
+    "q0034400": "q0017200",
+    "q0043000": "q0043000",
+    "q0051400": "q0051400",
+    "q0060000": "q0060000",
+    "q0068600": "q0068600",
+    "q0077200": "q0077200",
+    "q0085800": "q0085800",
+    "q0094400": "q0085800",
+    "q0102800": "q0102800",
+    "q0111400": "q0111400",
+    "q0120000": "q0120000",
+    "q0128600": "q0128600",
+    "q0137200": "q0137200",
+    "q0145800": "q0145800",
+    "q0154400": "q0154400",
+    "q0162800": "q0162800",
+    "q0171400": "q0171400",
+    "q0180000": "q0180000",
+    "q0188600": "q0188600",
+    "q0197200": "q0197200",
+    "q0205800": "q0205800",
+    "q0214400": "q0214400",
+    "q0222800": "q0222800",
+    "q0231400": "q0231400",
+    "q0240000": "q0240000",
+    "q0248600": "q0248600",
+    "q0257200": "q0257200",
+    "q0265800": "q0265800",
+    "q0274200": "q0274200",
+    "q0282800": "q0282800",
+    "q0291400": "q0291400",
+    "q0300000": "q0300000",
+    "q0308600": "q0308600",
+    "q0317200": "q0317200",
+    "q0325800": "q0325800",
+    "q0334200": "q0334200",
+    "q0342800": "q0342800",
+    "q0351400": "q0351400",
+    "q0360000": "q0360000",
+    "q0368600": "q0368600",
+    "q0377200": "q0222800",
+    "q0385800": "q0385800",
+    "q0394200": "q0205800",
+    "q0402800": "q0402800",
+    "q0411400": "q0411400",
+    "q0420000": "q0420000",
+    "q0428600": "q0428600",
+    "q0437200": "q0437200",
+    "q0445600": "q0445600",
+    "q0454200": "q0454200",
+    "q0462800": "q0462800",
+    "q0471400": "q0471400",
+    "q0480000": "q0480000",
+    "q0488600": "q0488600",
+    "q0497200": "q0497200",
+    "q0505600": "q0505600",
+    "q0514200": "q0514200",
+    "q0522800": "q0522800",
+    "q0531400": "q0531400",
+    "q0540000": "q0540000",
+    "q0548600": "q0548600",
+    "q0557200": "q0557200",
+    "q0565600": "q0565600",
+    "q0574200": "q0574200",
+    "q0582800": "q0582800",
+    "q0591400": "q0591400",
+    "q0600000": "q0600000",
+    "q0608600": "q0608600",
+    "q0617000": "q0617000",
+    "q0625600": "q0625600",
+    "q0634200": "q0634200",
+    "q0642800": "q0625600",
+    "q0651400": "q0017200",
+    "q0660000": "q0043000",
+    "q0668600": "q0668600",
+    "q0677000": "q0060000",
+    "q0685600": "q0068600",
+    "q0694200": "q0085800",
+    "q0702800": "q0085800",
+    "q0711400": "q0711400",
+    "q0720000": "q0720000",
+    "q0728600": "q0728600",
+    "q0737000": "q0737000",
+    "q0745600": "q0745600",
+    "q0754200": "q0754200",
+    "q0762800": "q0762800",
+    "q0771400": "q0771400",
+    "q0780000": "q0780000",
+    "q0788400": "q0788400",
+    "q0797000": "q0797000",
+    "q0805600": "q0805600",
+    "q0814200": "q0814200",
+    "q0822800": "q0822800",
+    "q0831400": "q0831400",
+    "q0840000": "q0840000",
+    "q0848400": "q0848400",
+    "q0857000": "q0857000",
+    "q0865600": "q0865600",
+    "q0874200": "q0874200",
+    "q0882800": "q0882800",
+    "q0891400": "q0891400",
+    "q0900000": "q0900000",
+    "q0908400": "q0908400",
+    "q0917000": "q0917000",
+    "q0925600": "q0925600",
+    "q0934200": "q0934200",
+    "q0942800": "q0942800",
+    "q0951400": "q0951400",
+    "q0959800": "q0342800",
+    "q0968400": "q0540000",
+    "q0977000": "q0977000",
+    "q0985600": "q0985600",
+    "q0994200": "q0994200",
+    "q1002800": "q1002800",
+    "q1011400": "q1011400",
+    "q1019800": "q1019800",
+    "q1028400": "q1028400",
+    "q1037000": "q1037000",
+    "q1045600": "q1045600",
+    "q1054200": "q0548600",
+    "q1062800": "q0634200",
+    "q1071400": "q0017200",
+    "q1079800": "q0017200",
+    "q1088400": "q1088400",
+    "q1097000": "q0043000",
+    "q1105600": "q0051400",
+    "q1114200": "q0060000",
+    "q1122800": "q0068600",
+    "q1131200": "q1131200",
+    "q1139800": "q1139800",
+    "q1148400": "q0711400",
+    "q1157000": "q0137200",
+    "q1165600": "q0128600",
+    "q1174200": "q0728600",
+    "q1182800": "q0128600",
+    "q1191200": "q1191200",
+    "q1199800": "q0754200",
+    "q1208400": "q1208400",
+    "q1217000": "q1217000",
+    "q1225600": "q1225600",
+    "q1234200": "q1234200",
+    "q1242800": "q1242800",
+    "q1251200": "q1251200",
+    "q1259800": "q1251200",
+    "q1268400": "q1268400",
+    "q1277000": "q1268400",
+    "q1285600": "q1285600",
+    "q1294200": "q1294200",
+    "q1302600": "q1302600",
+    "q1311200": "q0891400",
+    "q1319800": "q1319800",
+    "q1328400": "q1328400",
+    "q1337000": "q1337000",
+    "q1345600": "q1345600",
+    "q1354200": "q0917000",
+    "q1362600": "q0514200",
+    "q1371200": "q0317200",
+    "q1379800": "q0951400",
+    "q1388400": "q0334200",
+    "q1397000": "q0531400",
+    "q1405600": "q0557200",
+    "q1414200": "q0557200",
+    "q1422600": "q1422600",
+    "q1431200": "q1431200",
+    "q1439800": "q1439800",
+    "q1448400": "q1448400",
+    "q1457000": "q1457000",
+    "q1465600": "q0617000",
+    "q1474000": "q1474000",
+    "q1482600": "q0617000",
+    "q1491200": "q1491200",
+    "q1499800": "q0634200",
+    "q1508400": "q0017200",
+    "q1517000": "q1517000",
+    "q1525600": "q1011400",
+    "q1534000": "q0060000",
+    "q1542600": "q0068600",
+    "q1551200": "q0068600",
+    "q1559800": "q0085800",
+    "q1568400": "q1568400",
+    "q1577000": "q0102800",
+    "q1585600": "q0745600",
+    "q1594000": "q0128600",
+    "q1602600": "q0728600",
+    "q1611200": "q1611200",
+    "q1619800": "q1619800",
+    "q1628400": "q0154400",
+    "q1637000": "q1637000",
+    "q1645400": "q0480000",
+    "q1654000": "q1654000",
+    "q1662600": "q1662600",
+    "q1671200": "q1268400",
+    "q1679800": "q1679800",
+    "q1688400": "q1688400",
+    "q1697000": "q1697000",
+    "q1705400": "q1705400",
+    "q1714000": "q1714000",
+    "q1722600": "q0780000",
+    "q1731200": "q0865600",
+    "q1739800": "q0462800",
+    "q1748400": "q0882800",
+    "q1757000": "q1757000",
+    "q1765400": "q1765400",
+    "q1774000": "q1774000",
+    "q1782600": "q0505600",
+    "q1791200": "q1791200",
+    "q1799800": "q0917000",
+    "q1808400": "q1808400",
+    "q1816800": "q0325800",
+    "q1825400": "q1825400",
+    "q1834000": "q0557200",
+    "q1842600": "q1842600",
+    "q1851200": "q1851200",
+    "q1859800": "q1859800",
+    "q1868400": "q1868400",
+    "q1876800": "q1517000",
+    "q1885400": "q1885400",
+    "q1894000": "q1894000",
+    "q1902600": "q1902600",
+    "q1911200": "q1911200",
+    "q1919800": "q0634200",
+    "q1928400": "q1928400",
+    "q1936800": "q0017200",
+    "q1945400": "q0043000",
+    "q1954000": "q0668600",
+    "q1962600": "q0060000",
+    "q1971200": "q0068600",
+    "q1979800": "q0068600",
+    "q1988200": "q0085800",
+    "q1996800": "q0102800",
+    "q2005400": "q0600000",
+    "q2014000": "q1191200",
+    "q2022600": "q0128600",
+    "q2031200": "q0128600",
+    "q2039800": "q0137200",
+    "q2048200": "q2048200",
+    "q2056800": "q2056800",
+    "q2065400": "q0454200",
+    "q2074000": "q2074000",
+    "q2082600": "q2082600",
+    "q2091200": "q0137200",
+    "q2099800": "q2099800",
+    "q2108200": "q2108200",
+    "q2116800": "q0617000",
+    "q2125400": "q2125400",
+    "q2134000": "q1842600",
+    "q2142600": "q2142600",
+    "q2151200": "q2151200",
+    "q2159600": "q0454200",
+    "q2168200": "q2168200",
+    "q2176800": "q0617000",
+    "q2185400": "q0068600",
+    "q2194000": "q0085800",
+    "q2202600": "q0085800",
+    "q2211200": "q0711400",
+    "q2219600": "q0137200",
+    "q2228200": "q0737000",
+    "q2236800": "q1045600",
+    "q2245400": "q2245400",
+    "q2254000": "q2254000",
+    "q2262600": "q2262600",
+    "q2271200": "q0762800",
+    "q2279600": "q2279600",
+    "q2288200": "q2288200",
+    "q2296800": "q2296800",
+    "q2305400": "q2305400",
+    "q2314000": "q2314000",
+    "q2322600": "q2322600",
+    "q2331000": "q2331000",
+    "q2339600": "q2339600",
+    "q2348200": "q0574200",
+    "q2356800": "q2356800",
+    "q2365400": "q0017200",
+    "q2374000": "q0017200",
+    "q2382600": "q0634200",
+    "q2391000": "q0625600",
+    "q2399600": "q1517000",
+    "q2408200": "q1011400",
+    "q2416800": "q0060000",
+    "q2425400": "q2425400",
+    "q2434000": "q0634200",
+    "q2442600": "q0068600",
+    "q2451000": "q2451000",
+    "q2459600": "q2451000",
+    "q2468200": "q0085800",
+    "q2476800": "q2476800",
+    "q2485400": "q0711400",
+    "q2494000": "q2494000",
+    "q2502400": "q2254000",
+    "q2511000": "q0111400",
+    "q2519600": "q2519600",
+    "q2528200": "q2528200",
+    "q2536800": "q2528200",
+    "q2545400": "q2545400",
+    "q2554000": "q2545400",
+    "q2562400": "q2562400",
+    "q2571000": "q2571000",
+    "q2579600": "q2579600",
+    "q2588200": "q2588200",
+    "q2596800": "q2322600",
+    "q2605400": "q2605400",
+    "q2614000": "q2614000",
+    "q2622400": "q2622400",
+    "q2631000": "q2528200",
+    "q2639600": "q0737000",
+    "q2648200": "q1045600",
+    "q2656800": "q1037000",
+    "q2665400": "q2665400",
+    "q2673800": "q1319800",
+    "q2682400": "q2682400",
+    "q2691000": "q2254000",
+    "q2699600": "q2699600",
+    "q2708200": "q2708200",
+    "q2716800": "q2125400",
+    "q2725400": "q2725400",
+    "q2733800": "q2733800",
+    "q2742400": "q2742400",
+    "q2751000": "q2751000",
+    "q2759600": "q2759600",
+    "q2768200": "q2768200",
+    "q2776800": "q2776800",
+    "q2785400": "q2785400",
+    "q2793800": "q2793800",
+    "q2802400": "q2802400",
+    "q2811000": "q2811000",
+    "q2819600": "q2082600",
+    "q2828200": "q1688400",
+    "q2836800": "q2836800",
+    "q2845200": "q0342800",
+    "q2853800": "q1825400",
+    "q2862400": "q2862400",
+    "q2871000": "q2262600",
+    "q2879600": "q0762800",
+    "q2888200": "q2888200",
+    "q2896800": "q2896800",
+    "q2905200": "q2905200",
+    "q2913800": "q2913800",
+    "q2922400": "q2922400",
+    "q2931000": "q0274200",
+    "q2939600": "q2939600",
+    "q2948200": "q2948200",
+    "q2956800": "q2956800",
+    "q2965200": "q2965200",
+    "q2973800": "q2973800",
+    "q2982400": "q0257200",
+    "q2991000": "q0265800",
+    "q2999600": "q0265800",
+    "q3008200": "q0574200",
+    "q3016600": "q1011400",
+    "q3025200": "q0300000",
+    "q3033800": "q0308600",
+    "q3042400": "q0308600",
+    "q3051000": "q3051000",
+    "q3059600": "q3059600",
+    "q3068200": "q0068600",
+    "q3076600": "q2451000",
+    "q3085200": "q2451000",
+    "q3093800": "q0085800",
+    "q3102400": "q3102400",
+    "q3111000": "q0711400",
+    "q3119600": "q3119600",
+    "q3128200": "q3128200",
+    "q3136600": "q2682400",
+    "q3145200": "q3145200",
+    "q3153800": "q3145200",
+    "q3162400": "q3162400",
+    "q3171000": "q3171000",
+    "q3179600": "q2699600",
+    "q3188000": "q3188000",
+    "q3196600": "q3196600",
+    "q3205200": "q2836800",
+    "q3213800": "q0017200",
+    "q3222400": "q2614000",
+    "q3231000": "q3231000",
+    "q3239600": "q2125400",
+    "q3248000": "q2125400",
+    "q3256600": "q0128600",
+    "q3265200": "q1319800",
+    "q3273800": "q0317200",
+    "q3282400": "q0317200",
+    "q3291000": "q3291000",
+    "q3299600": "q2682400",
+    "q3308000": "q1002800",
+    "q3316600": "q3316600",
+    "q3325200": "q3325200",
+    "q3333800": "q2519600",
+    "q3342400": "q2528200",
+    "q3351000": "q3351000",
+    "q3359400": "q3359400",
+    "q3368000": "q2562400",
+    "q3376600": "q2296800",
+    "q3385200": "q3385200",
+    "q3393800": "q1028400",
+    "q3402400": "q3402400",
+    "q3411000": "q3411000",
+    "q3419400": "q2614000",
+    "q3428000": "q2622400",
+    "q3436600": "q2528200",
+    "q3445200": "q2245400",
+    "q3453800": "q0728600",
+    "q3462400": "q3462400",
+    "q3471000": "q0308600",
+    "q3479400": "q1011400",
+    "q3488000": "q0043000",
+    "q3496600": "q0745600",
+    "q3505200": "q3411000",
+    "q3513800": "q3316600",
+    "q3522400": "q2125400",
+    "q3530800": "q3530800",
+    "q3539400": "q2056800",
+    "q3548000": "q3548000",
+    "q3556600": "q3548000",
+    "q3565200": "q3565200",
+    "q3573800": "q3573800",
+    "q3582400": "q3316600",
+    "q3590800": "q2356800",
+    "q3599400": "q2356800",
+    "q3608000": "q3608000",
+    "q3616600": "q3616600",
+    "q3625200": "q2699600",
+    "q3633800": "q1619800",
+    "q3642400": "q3642400",
+    "q3650800": "q3650800",
+    "q3659400": "q0625600",
+    "q3668000": "q0068600",
+    "q3676600": "q3676600",
+    "q3685200": "q3676600",
+    "q3693800": "q0085800",
+    "q3702200": "q1868400",
+    "q3710800": "q0711400",
+    "q3719400": "q3351000",
+    "q3728000": "q0137200",
+    "q3736600": "q0137200",
+    "q3745200": "q2519600",
+    "q3753800": "q2519600",
+    "q3762200": "q2545400",
+    "q3770800": "q2562400",
+    "q3779400": "q3351000",
+    "q3788000": "q3788000",
+    "q3796600": "q3796600",
+    "q3805200": "q0548600",
+    "q3813800": "q3385200",
+    "q3822200": "q3385200",
+    "q3830800": "q3411000",
+    "q3839400": "q3839400",
+    "q3848000": "q2614000",
+    "q3856600": "q3856600",
+    "q3865200": "q2125400",
+    "q3873600": "q0737000",
+    "q3882200": "q0120000",
+    "q3890800": "q1868400",
+    "q3899400": "q0317200",
+    "q3908000": "q1011400",
+    "q3916600": "q0043000",
+    "q3925200": "q0137200",
+    "q3933600": "q3933600",
+    "q3942200": "q3942200",
+    "q3950800": "q2125400",
+    "q3959400": "q0617000",
+    "q3968000": "q2733800",
+    "q3976600": "q3976600",
+    "q3985200": "q3548000",
+    "q3993600": "q3993600",
+    "q4002200": "q3565200",
+    "q4010800": "q4010800",
+    "q4019400": "q4019400",
+    "q4028000": "q3145200",
+    "q4036600": "q3402400",
+    "q4045000": "q3359400",
+    "q4053600": "q1911200",
+    "q4062200": "q4062200",
+    "q4070800": "q3145200",
+    "q4079400": "q4079400",
+    "q4088000": "q1491200",
+    "q4096600": "q4096600",
+    "q4105000": "q0068600",
+    "q4113600": "q4113600",
+    "q4122200": "q0085800",
+    "q4130800": "q4130800",
+    "q4139400": "q1568400",
+    "q4148000": "q4148000",
+    "q4156600": "q3128200",
+    "q4165000": "q3128200",
+    "q4173600": "q0745600",
+    "q4182200": "q4148000",
+    "q4190800": "q2519600",
+    "q4199400": "q3325200",
+    "q4208000": "q4208000",
+    "q4216400": "q3351000",
+    "q4225000": "q4148000",
+    "q4233600": "q2519600",
+    "q4242200": "q4242200",
+    "q4250800": "q2579600",
+    "q4259400": "q4259400",
+    "q4268000": "q2605400"
+  },
+  "rules": {
+    "q0000000": {
+      "en": "Give way to traffic already in the roundabout approaching from your right; enter only when there is a safe gap.",
+      "zh-Hans": "让右侧已在环岛内行驶的车辆先行，等有安全空隙再进入。",
+      "pages": "53"
+    },
+    "q0008600": {
+      "en": "Before moving off, check the mirrors and blind spot, signal, and yield to passing traffic. A signal does not give you priority.",
+      "zh-Hans": "起步前查看后视镜和盲区，打转向灯，并让已在行驶的车辆先行。打灯不代表取得优先权。",
+      "pages": "60"
+    },
+    "q0017200": {
+      "en": "Even a small amount of alcohol can slow reactions and impair judgement, concentration and coordination. That makes it harder to control the vehicle or respond to a hazard.",
+      "zh-Hans": "即使只喝少量酒，也可能使反应变慢，影响判断、注意力和动作协调，让驾驶员更难控制车辆或应对危险。",
+      "pages": "58"
+    },
+    "q0043000": {
+      "en": "Long vehicles can swing right before turning left, and their rear wheels cut inward. Drop back and let the turn finish instead of trying to pass alongside the vehicle.",
+      "zh-Hans": "长车左转前可能先向右摆，后轮又会向弯内切。应减速留在后方，让它完成转弯，不要从旁边抢行。",
+      "pages": "64",
+      "status": "context"
+    },
+    "q0051400": {
+      "en": "Choose your lane for the intended exit before entering. In this diagram, Y is positioned for the later exits C and D; on the road, follow the actual lane arrows and signs.",
+      "zh-Hans": "进入环岛前应按预定出口选车道。图中 Y 所在车道适合较后的 C、D 出口；实际驾驶应以现场箭头和标志为准。",
+      "pages": "53",
+      "status": "context"
+    },
+    "q0060000": {
+      "en": "Mirrors do not show everything alongside the vehicle. Briefly look over the relevant shoulder before moving sideways, turning or making a U-turn.",
+      "zh-Hans": "后视镜无法覆盖车身两侧的全部区域。变道、转弯或掉头前，向相关一侧短暂转头查看盲区。",
+      "pages": "60"
+    },
+    "q0068600": {
+      "en": "The video uses the older two-second check for following distance, which scales with speed. The supplied Chinese edition also says two seconds; the supplied English edition now recommends at least three seconds in normal conditions. Allow more in poor conditions.",
+      "zh-Hans": "视频使用较旧的两秒跟车判断法，车速越快，两秒行驶的距离越长。所给中文版仍写两秒；所给英文版在正常条件下已改为至少三秒。路况不佳时应加大间隔。",
+      "pages": "61",
+      "status": "conflict"
+    },
+    "q0077200": {
+      "en": "Wet roads lengthen braking distance, so allow extra time. The keyed answer uses the older two-second baseline; the supplied English edition recommends at least three seconds even in normal conditions.",
+      "zh-Hans": "湿路会延长制动距离，应加大跟车时间。视频答案以较旧的两秒为基准；所给英文版即使在正常路况下也建议至少三秒。",
+      "pages": "61",
+      "status": "conflict"
+    },
+    "q0085800": {
+      "en": "When a responding emergency vehicle approaches, yield promptly: signal and pull safely toward the nearest edge, slowing or stopping if necessary. Don't block a junction or brake suddenly in front of it.",
+      "zh-Hans": "遇到执行紧急任务的车辆，应尽快让行：打灯并安全靠向最近一侧，必要时减速停车。不要堵住路口或在其前方急刹。",
+      "pages": "62"
+    },
+    "q0102800": {
+      "en": "Only cross floodwater if known to be shallow and passable. Select a low gear, enter slowly and keep a steady pace; the handbook does not require first gear for every vehicle.",
+      "zh-Hans": "仅在确认水浅且可通行时才涉水。先选低挡，缓慢驶入并保持稳定车速；手册并未规定所有车辆都必须使用一挡。",
+      "pages": "66"
+    },
+    "q0111400": {
+      "en": "Move into the correct marked lane before reaching the junction. Last-minute weaving may cut across another vehicle's path.",
+      "zh-Hans": "到达路口前按行驶方向进入正确车道。临近路口才变道容易切入其他车辆的行驶路线。",
+      "pages": "50"
+    },
+    "q0120000": {
+      "en": "High beam helps on unlit roads only when it will not dazzle oncoming traffic or a driver ahead. Dip it as soon as someone could be affected.",
+      "zh-Hans": "远光灯适合光线不足且不会让对向或前方驾驶员眩目的道路。可能影响他人时应及时切换近光灯。",
+      "pages": "57"
+    },
+    "q0128600": {
+      "en": "Use dipped headlights to avoid dazzling others, especially when meeting oncoming traffic or where a bend hides it. High beam is not the default for every night situation.",
+      "zh-Hans": "用近光灯避免让他人眩目，尤其是会车或弯道可能遮挡对向车辆时。并非夜间所有情况都适合用远光灯。",
+      "pages": "57, 67"
+    },
+    "q0137200": {
+      "en": "Keep left in normal driving. Use the right-hand lane to overtake when safe and return left when clear; keep any applicable lane restrictions in mind.",
+      "zh-Hans": "正常行驶靠左。安全时可用右侧车道超车，完成后在安全空隙内靠回左侧，并遵守适用的车道限制。",
+      "pages": "50, 54"
+    },
+    "q0145800": {
+      "en": "Saturday restrictions apply to full-day bus lanes: 7:30 a.m. to 11 p.m., Monday through Saturday except public holidays. The keyed 7:30–9:30 interval is only part of those hours, not the entire Saturday period.",
+      "zh-Hans": "周六实行限制的是全日制巴士车道：周一至周六早上 7:30 至晚上 11:00，公共假日除外。答案中的 7:30 至 9:30 仅是其中一段，并非周六完整时段。",
+      "pages": "40",
+      "status": "context"
+    },
+    "q0154400": {
+      "en": "A correctly worn seat belt restrains the occupant in a crash and reduces serious injury. Drivers and passengers should buckle up and use the appropriate restraint.",
+      "zh-Hans": "正确系好安全带能在撞击时约束乘员，减少重伤风险。驾驶员和乘客都应系带或使用合适的约束装置。",
+      "pages": "57"
+    },
+    "q0162800": {
+      "en": "A white turn arrow on a blue circular sign is mandatory. Turn in the direction the arrow shows; do not go straight unless another instruction permits it.",
+      "zh-Hans": "蓝色圆牌上的白色转弯箭头是强制标志。按箭头方向转弯，不可继续直行，另有指示除外。",
+      "pages": "9"
+    },
+    "q0171400": {
+      "en": "The red disc with a white horizontal bar means no entry from this direction.",
+      "zh-Hans": "红底中央白色横条表示禁止从这一方向驶入。",
+      "pages": "11"
+    },
+    "q0180000": {
+      "en": "The red-ringed 50 is the maximum speed of 50 km/h, not a target or minimum speed.",
+      "zh-Hans": "红圈内的 50 表示最高时速 50 公里，不是目标车速或最低限速。",
+      "pages": "13"
+    },
+    "q0188600": {
+      "en": "The branch on the left indicates a side road joining from that side. Slow down and look for traffic emerging from the left.",
+      "zh-Hans": "左侧的支线表示左方有支路汇入，应减速并留意左侧驶出的车辆。",
+      "pages": "15"
+    },
+    "q0197200": {
+      "en": "The bent arrow warns of a right bend ahead, not a compulsory right turn. Slow down and keep left through the bend.",
+      "zh-Hans": "弯箭头表示前方右弯，不是必须右转的命令。应减速并靠左过弯。",
+      "pages": "14"
+    },
+    "q0205800": {
+      "en": "Opposing arrows or streams joining at the end of a divided road warn of oncoming traffic. Slow down and keep left.",
+      "zh-Hans": "相对的箭头或分隔道路结束处汇合的线形提示会有对向来车，应减速靠左。",
+      "pages": "15–16"
+    },
+    "q0214400": {
+      "en": "The two opposing arrows warn that the road you are about to cross carries traffic in both directions, even though the approach road is one-way. Look both ways.",
+      "zh-Hans": "两支相反方向的箭头提示前方横过的是双向公路，即使你所在的道路是单向，也要观察左右两侧。",
+      "pages": "15"
+    },
+    "q0222800": {
+      "en": "A line bending inward shows the road narrowing. Reduce speed, keep left as applicable and do not start an overtake or U-turn through the restricted space.",
+      "zh-Hans": "向内收的线条表示道路变窄。应减速并适当靠左，不要在狭窄处超车或掉头。",
+      "pages": "16"
+    },
+    "q0231400": {
+      "en": "The sign is shown without a vehicle-class qualifier. Apply it to all vehicles unless a sign or plate specifies an exemption.",
+      "zh-Hans": "图示标志没有注明车型范围。除非另有标志或附牌列明例外，否则各类车辆都应遵守。",
+      "pages": "13",
+      "status": "context"
+    },
+    "q0240000": {
+      "en": "The dead-end marker tells you the branch has no through route. It is not a no-entry sign; you may enter if no separate restriction applies.",
+      "zh-Hans": "尽头路标志表示该支路不能贯通，并非禁止驶入。如果没有另外的限制，仍可驶入。",
+      "pages": "20, 22",
+      "status": "context"
+    },
+    "q0248600": {
+      "en": "The barrier marker warns of an obstruction or blocked route. Slow down in time and pass only on a permitted, clear path.",
+      "zh-Hans": "路障标志提示前方有障碍或通路被挡。应提前减速，只从允许且畅通的方向通过。",
+      "pages": "20"
+    },
+    "q0257200": {
+      "en": "The tunnel-ahead symbol depicts a tunnel portal. Expect the tunnel entrance and observe any lane or lighting instructions approaching it.",
+      "zh-Hans": "隧道前方标志以隧道洞口为图案。接近入口时应留意车道和灯光指示。",
+      "pages": "25"
+    },
+    "q0265800": {
+      "en": "The pedestrian crossing warning marks a place where people may cross. Slow early and be ready to stop; the crossing sign is not permission to maintain speed.",
+      "zh-Hans": "行人过道警告标志提示前方有人可能过路。要提前减速并准备停车，不可照原速驶过。",
+      "pages": "18, 24"
+    },
+    "q0274200": {
+      "en": "The two paths joining in the symbol or road arrows show two lanes becoming one. Check the adjacent lane and merge safely, taking turns in the road-marked merge situation.",
+      "zh-Hans": "标志或地面箭头的两条路线合在一起，表示两车道并成一条。应查看相邻车道并安全汇入；地面合流标线所示情况下应交替汇入。",
+      "pages": "15, 43"
+    },
+    "q0282800": {
+      "en": "White zigzags warn of a nearby pedestrian crossing. Slow down, prepare to stop for pedestrians and do not overtake or wait in the marked area.",
+      "zh-Hans": "白色锯齿线提示附近有行人过道。应减速，准备停车让行人通过，并且不得在标线范围内超车或等候。",
+      "pages": "42"
+    },
+    "q0291400": {
+      "en": "An amber directional arrow tells drivers turning in that direction to get ready to stop behind the stop line.",
+      "zh-Hans": "橙色方向箭头要求沿箭头方向转弯的车辆准备在停止线前停车。",
+      "pages": "45"
+    },
+    "q0300000": {
+      "en": "A red right arrow orders right-turning vehicles to stop. Straight-ahead traffic follows its own signal.",
+      "zh-Hans": "红色右箭头要求右转车辆停车；直行车辆应看其对应的信号。",
+      "pages": "45–46"
+    },
+    "q0308600": {
+      "en": "Approach even a green signal at a speed that lets you stop if it changes. Look into the junction rather than accelerating to beat the lights.",
+      "zh-Hans": "即使前方是绿灯，也应以变灯时来得及停车的速度接近。注意观察路口，不要加速抢灯。",
+      "pages": "44, 69"
+    },
+    "q0317200": {
+      "en": "Flashing amber indicates the signals are out of order. Slow, give way to traffic from the right and go through only when safe.",
+      "zh-Hans": "橙灯闪烁表示信号灯故障。应减速、让右方来车先行，并在确认安全后才驶过。",
+      "pages": "44"
+    },
+    "q0325800": {
+      "en": "Both arms raised is the officer's all-directions stop signal. Traffic signals and signs do not override the officer's direction.",
+      "zh-Hans": "警员双臂抬起表示各方向来车都要停车。交通灯和标志不能取代警员的指挥。",
+      "pages": "47"
+    },
+    "q0334200": {
+      "en": "In this posture, vehicles approaching from the officer's right, front and behind must stop. Read directions relative to the officer.",
+      "zh-Hans": "这个手势要求从警员右方、正面和背面接近的车辆停车；方向以警员本人为准。",
+      "pages": "47"
+    },
+    "q0342800": {
+      "en": "The circular motion of the outstretched right arm is the driver's signal for moving or turning left, not the steady right-turn signal.",
+      "zh-Hans": "伸出的右臂做圆周运动表示向左移动或左转，不是保持手臂伸直的右转手势。",
+      "pages": "49"
+    },
+    "q0351400": {
+      "en": "Overtake on the right as the normal rule. A vehicle indicating a right turn is a stated exception allowing a safe pass on the left.",
+      "zh-Hans": "一般从右侧超车。前车打灯准备右转属于例外，确认安全时可从左侧通过。",
+      "pages": "50"
+    },
+    "q0360000": {
+      "en": "The height restriction applies to the vehicle's overall height, including its load. The number on this sign is 4.5 m; anything above that must not enter.",
+      "zh-Hans": "限高按车辆连同货物的总高度计算。图示限高 4.5 米，超过不得驶入。",
+      "pages": "12"
+    },
+    "q0368600": {
+      "en": "The no-overtaking sign prohibits overtaking; wait until the restriction has ended and the manoeuvre is safe.",
+      "zh-Hans": "禁止超车标志表示不得超车，应等限制结束并确认安全后才超越前车。",
+      "pages": "13"
+    },
+    "q0385800": {
+      "en": "The circular arrows warn of a roundabout. Slow down and give way to traffic from the right before entering.",
+      "zh-Hans": "循环箭头提示前方有环岛，进入前要减速并让右方车辆先行。",
+      "pages": "16, 53"
+    },
+    "q0402800": {
+      "en": "The triangular ERP sign warns that an Electronic Road Pricing zone is ahead.",
+      "zh-Hans": "带 ERP 字样的三角标志提示前方有电子道路收费区域。",
+      "pages": "16"
+    },
+    "q0411400": {
+      "en": "The plain red warning triangle marks a breakdown ahead. Slow down and look for a stationary vehicle or an obstruction.",
+      "zh-Hans": "红色空心三角牌提示前方有车辆抛锚，应减速，留意停住的车辆或障碍物。",
+      "pages": "17"
+    },
+    "q0420000": {
+      "en": "The designated rain shelter is for motorcyclists. It is not a general stopping place for cars.",
+      "zh-Hans": "指定避雨处供摩托车骑士使用，不是汽车的一般停车点。",
+      "pages": "23"
+    },
+    "q0428600": {
+      "en": "A wheel-clamp zone warns of enforcement whenever you park illegally. The handbook discusses restrictions on parking, but does not specify an operating schedule for this pictured sign.",
+      "zh-Hans": "锁轮区表示违例泊车可能被锁轮。手册讨论泊车限制，但没有为此图示标志规定执法时段。",
+      "pages": "56",
+      "status": "context"
+    },
+    "q0437200": {
+      "en": "The white arrow on a blue rectangle marks one-way traffic. You must travel in that direction along this road, but can turn into a side road where a turn is permitted.",
+      "zh-Hans": "蓝底长方牌上的白箭头表示单向交通。在这条路上须顺箭头方向行驶，但在允许转弯处仍可转入支路。",
+      "pages": "20"
+    },
+    "q0445600": {
+      "en": "A red cross over the lane closes it to traffic. Use another open lane, changing lanes safely.",
+      "zh-Hans": "车道上方的红叉表示该车道关闭。应安全变道，使用另一条开放车道。",
+      "pages": "25"
+    },
+    "q0454200": {
+      "en": "Children or young cyclists can move into your path suddenly. A child warning sign or a ball rolling into the road is a cue to slow and be ready to stop.",
+      "zh-Hans": "儿童或年幼骑士可能突然进入你的行驶路线。看到儿童警告标志或球滚到路上，应减速并准备停车。",
+      "pages": "18, 62, 64"
+    },
+    "q0462800": {
+      "en": "The sign warns of elderly or disabled pedestrians who may need more time to cross. Slow and be prepared to give them time and space.",
+      "zh-Hans": "此标志提示可能有年长或行动不便的行人，需要较长时间过路。应减速并准备让行，留足时间和空间。",
+      "pages": "18, 62"
+    },
+    "q0471400": {
+      "en": "The markings form a right-turn pocket. Wait within it for a safe gap in oncoming traffic before completing the turn.",
+      "zh-Hans": "这些标线划出右转等候区。应在区内等对向车流出现安全空隙，再完成右转。",
+      "pages": "42"
+    },
+    "q0480000": {
+      "en": "The triangle marks a give-way point. Slow, yield to traffic on the main road and stop if necessary.",
+      "zh-Hans": "三角标记表示让行。应减速，让主路车辆先行，必要时停车。",
+      "pages": "10, 35"
+    },
+    "q0488600": {
+      "en": "If the amber is flashing, the signals are out of order: slow, yield to traffic from the right and proceed with caution. A steady amber instead tells you to stop if safe.",
+      "zh-Hans": "橙灯闪烁表示信号灯故障，应减速、让右方来车先行并小心通过。橙灯长亮则是在能安全停车时应停下。",
+      "pages": "44"
+    },
+    "q0497200": {
+      "en": "A flashing green direction arrow is about to go out. Do not start the turn if you have not passed the stop line.",
+      "zh-Hans": "绿色方向箭头闪烁表示即将熄灭；尚未越过停止线就不要开始转弯。",
+      "pages": "44"
+    },
+    "q0505600": {
+      "en": "When green appears, look to both sides and for oncoming traffic before moving. Also allow any pedestrian still crossing to finish.",
+      "zh-Hans": "亮绿灯后，起步前仍应查看两侧及对向来车，也要让还在过路的行人走完。",
+      "pages": "44, 62"
+    },
+    "q0514200": {
+      "en": "Flashing amber means the signals are out of order. Slow, give way to traffic from the right and proceed with caution.",
+      "zh-Hans": "橙灯闪烁表示交通信号灯故障。应减速、让右方来车先行并小心通过。",
+      "pages": "44"
+    },
+    "q0522800": {
+      "en": "For the extended-arm signal shown, traffic from the officer's front and back stops, traffic from the right may proceed and traffic from the left should prepare to stop.",
+      "zh-Hans": "图中的伸臂手势要求警员前后方车辆停下，右方车辆可前进，左方车辆准备停车。",
+      "pages": "48"
+    },
+    "q0531400": {
+      "en": "The up-and-down movement of the extended arm is the driver's warning that the vehicle is slowing down.",
+      "zh-Hans": "伸臂上下摆动是驾驶员告知其他道路使用者自己要减速的手势。",
+      "pages": "49"
+    },
+    "q0540000": {
+      "en": "The driver's raised forearm with the palm up and visible is the stop signal. It is not the horizontal arm signal for a right turn.",
+      "zh-Hans": "驾驶员屈肘举起前臂、手掌竖起让人看见，表示要停车，不是手臂水平伸直的右转手势。",
+      "pages": "49"
+    },
+    "q0548600": {
+      "en": "Signal at least three seconds before the manoeuvre so other road users have time to react; check that it is safe before acting.",
+      "zh-Hans": "至少提前三秒打灯，让其他道路使用者有时间反应；确认安全后才行动。",
+      "pages": "60"
+    },
+    "q0557200": {
+      "en": "If another rider or driver is overtaking you, ease off and keep left so they can complete it safely. Do not race or squeeze them.",
+      "zh-Hans": "其他骑士或驾驶员正在超越你时，应松开油门并靠左，让对方安全通过。不要竞速或挤压空间。",
+      "pages": "64"
+    },
+    "q0565600": {
+      "en": "B turns across the path of the oncoming vehicle A. A has priority; B should wait before turning.",
+      "zh-Hans": "B 转弯会横越对向车辆 A 的路线。A 优先，B 应等候后再转弯。",
+      "pages": "52–53"
+    },
+    "q0574200": {
+      "en": "Do not cross double continuous white centre lines. They prohibit crossing into the opposing lane, unlike a broken white line in situations where crossing is otherwise allowed and safe.",
+      "zh-Hans": "不可跨越双白实线进入对向车道。它不同于在规则允许且安全的情况下可以跨越的白虚线。",
+      "pages": "37"
+    },
+    "q0582800": {
+      "en": "Parking is not allowed within 6 m of a road junction. Keep the approach and its sight lines clear.",
+      "zh-Hans": "路口 6 米以内不得泊车，以免堵住入口或遮挡视线。",
+      "pages": "56"
+    },
+    "q0591400": {
+      "en": "Do not park within 9 m of a bus stop. Leave room for buses to enter and leave and for passengers to board.",
+      "zh-Hans": "巴士站 9 米以内不得泊车，应为巴士进出站及乘客上下车留出空间。",
+      "pages": "56"
+    },
+    "q0600000": {
+      "en": "At a sharp bend or hill crest, sight distance is restricted. Keep left, do not cross into the opposing lane and do not overtake.",
+      "zh-Hans": "急弯或坡顶视线受限，应靠左行驶，不可越入对向车道或超车。",
+      "pages": "50, 68"
+    },
+    "q0608600": {
+      "en": "If the vehicle being overtaken speeds up, do not race it. Abandon the overtake, slow down and return to a safe position in your lane.",
+      "zh-Hans": "被超车辆加速时不要竞速。应放弃超车，减速并安全返回原车道。",
+      "pages": "50–51"
+    },
+    "q0617000": {
+      "en": "Wet roads give the tyres less grip and increase stopping distance even with good tyres. Slow down before puddles or hazards and brake early and smoothly.",
+      "zh-Hans": "湿路会降低轮胎抓地力，即使轮胎状态好，停车距离也会增加。接近积水或危险前先减速，提前平稳制动。",
+      "pages": "61, 66"
+    },
+    "q0625600": {
+      "en": "The handbook gives a blood alcohol limit of 80 mg per 100 mL. Exceeding it can lead to prosecution; a conviction can result in disqualification. The limit is not a safe drinking target.",
+      "zh-Hans": "手册规定的血液酒精限值是每 100 毫升 80 毫克。超过限值可被起诉；定罪可导致取消驾驶资格。不要把限值当作安全饮酒标准。",
+      "pages": "58"
+    },
+    "q0634200": {
+      "en": "If you intend to drive, don't drink. If you've already been drinking, arrange public transport or another sober ride instead of driving yourself.",
+      "zh-Hans": "打算开车就不要喝酒。已经喝酒的话，搭公共交通工具或请未饮酒的人接送，不要自己开车。",
+      "pages": "58"
+    },
+    "q0668600": {
+      "en": "Passing near a side road creates conflicts with traffic turning in or emerging. Wait until beyond the junction and pass only when the road ahead is clear.",
+      "zh-Hans": "在支路口附近超车容易与转入或驶出的车辆发生冲突。应驶过路口，确认前方畅通后才超越。",
+      "pages": "50"
+    },
+    "q0711400": {
+      "en": "Water can reduce braking effectiveness. At low speed in a safe place, test the brakes and use light repeated applications as needed to dry them and confirm normal response.",
+      "zh-Hans": "进水会减弱制动。应在安全位置低速试刹，必要时轻踩数次以帮助干燥，确认制动恢复正常。",
+      "pages": "66"
+    },
+    "q0720000": {
+      "en": "Sudden lane changes leave other drivers little time to react. Check mirrors and blind spots, signal early, then change lanes smoothly into a safe gap.",
+      "zh-Hans": "突然变道让其他驾驶员来不及反应。应查后视镜和盲区，提前打灯，有安全空隙后平稳变道。",
+      "pages": "50, 60"
+    },
+    "q0728600": {
+      "en": "If dazzled, slow down, look toward the left road edge rather than into the lights and stop safely if you still cannot see well.",
+      "zh-Hans": "被灯光照得眩目时应减速，视线转向左侧路缘，不要盯着对方车灯；仍看不清时应安全停车。",
+      "pages": "67"
+    },
+    "q0737000": {
+      "en": "The handbook's night-lighting period is 7 p.m. to 7 a.m. Also use appropriate lights outside those hours whenever visibility is poor.",
+      "zh-Hans": "手册所列夜间开灯时段是晚上 7 点至早上 7 点；在其他时段能见度不佳时也应使用合适的车灯。",
+      "pages": "57"
+    },
+    "q0745600": {
+      "en": "An obstruction can justify moving right temporarily. Check mirrors and blind spots, signal, pass only when clear and return left when safe.",
+      "zh-Hans": "原车道受阻时可以暂时向右绕行。先查后视镜和盲区并打灯，确认安全后通过，再安全靠回左侧。",
+      "pages": "50"
+    },
+    "q0754200": {
+      "en": "Do not learn 11:30 a.m.–2 p.m. as the current Saturday rule. Normal bus-lane hours are Monday–Friday; full-day bus lanes operate Monday–Saturday, 7:30 a.m.–11 p.m., except public holidays.",
+      "zh-Hans": "不要把上午 11:30 至下午 2:00 记作现行周六规则。普通巴士车道只在周一至周五限行；全日制巴士车道在周一至周六早上 7:30 至晚上 11:00 限行，公共假日除外。",
+      "pages": "40",
+      "status": "conflict"
+    },
+    "q0762800": {
+      "en": "Do not rely on the video's age or 1.5 m cutoff. The handbooks use a height threshold of 1.35 m for the appropriate child restraint, booster or approved restraint arrangement, not a blanket exemption from buckling up.",
+      "zh-Hans": "不要按视频中的年龄或 1.5 米界限判断。手册以 1.35 米身高为门槛，要求使用合适的儿童约束装置、增高座垫或获准的约束方式，并非免系安全带。",
+      "pages": "57",
+      "status": "conflict"
+    },
+    "q0771400": {
+      "en": "The blue circle makes the instruction mandatory. The bent right arrow shown means you must turn right ahead.",
+      "zh-Hans": "蓝色圆牌表示强制指示。图中的弯右箭头表示前方必须右转。",
+      "pages": "9"
+    },
+    "q0780000": {
+      "en": "The keep-left arrow tells you to pass on the left or use the indicated left route. Don't take it as permission to pass on the right.",
+      "zh-Hans": "靠左箭头要求从左边通过或使用所指左侧路线，并不允许从右边绕过。",
+      "pages": "9, 50"
+    },
+    "q0788400": {
+      "en": "The red prohibition circle and lorry silhouette mean lorries cannot enter. Other vehicles are not excluded by this symbol alone.",
+      "zh-Hans": "红色禁令圆圈内的货车图案表示货车不得驶入；这个图案本身不禁止其他车辆驶入。",
+      "pages": "13"
+    },
+    "q0797000": {
+      "en": "The single diagonal bar across the blue disc means no waiting. You may stop briefly for immediate pickup or drop-off, not wait for someone to arrive.",
+      "zh-Hans": "蓝色圆牌上单条红斜线表示禁止等候，可为即时上下客短暂停车，不可停在那里等人到来。",
+      "pages": "11"
+    },
+    "q0805600": {
+      "en": "The expressway-ahead sign warns you are approaching an expressway; the start sign marks the beginning of expressway rules.",
+      "zh-Hans": "前方高速公路标志提醒你即将驶入高速公路；起点标志才表示高速公路规则从该处开始适用。",
+      "pages": "16, 23"
+    },
+    "q0814200": {
+      "en": "The roadworks symbol warns of people working on or near the carriageway. Slow down and leave plenty of room for workers and equipment.",
+      "zh-Hans": "道路施工图案提示有人在路面或路旁工作。应减速，给工人和设备留出足够距离。",
+      "pages": "17"
+    },
+    "q0822800": {
+      "en": "The skidding-car picture warns of a slippery road. Reduce speed before the affected stretch and use gentle steering and braking.",
+      "zh-Hans": "打滑汽车图案提醒前方路滑。进入该路段前减速，并平稳转向和制动。",
+      "pages": "17"
+    },
+    "q0831400": {
+      "en": "A single hump symbol warns of a road hump. Slow before it and do not overtake at the hump.",
+      "zh-Hans": "单个圆拱图案提示前方有路丘。应在到达前减速，不要在该处超车。",
+      "pages": "17"
+    },
+    "q0840000": {
+      "en": "A two-way traffic warning means opposing traffic can now meet you. Keep left, slow down and do not overtake where you could meet an oncoming vehicle.",
+      "zh-Hans": "双向交通警告表示可能与对向车辆相遇。须靠左减速，可能遇到对向车时不可超车。",
+      "pages": "15"
+    },
+    "q0848400": {
+      "en": "Do not stop in the yellow box as a general rule. The handbook permits limited turning exceptions, such as waiting for oncoming traffic during a right turn, without blocking other paths.",
+      "zh-Hans": "原则上不能停在黄格内。手册只允许有限的转弯例外，例如右转等对向车辆，但不得阻碍其他通行路线。",
+      "pages": "54–55"
+    },
+    "q0857000": {
+      "en": "A speed-check warning does not itself set a new limit. Continue to observe the road's posted or applicable speed limit.",
+      "zh-Hans": "测速提醒本身不设定新的限速；仍须遵守该路段标示或适用的限速。",
+      "pages": "52",
+      "status": "context"
+    },
+    "q0865600": {
+      "en": "This restriction bars vehicles carrying dangerous goods from the marked route or tunnel. It does not bar all goods vehicles merely because of their body type.",
+      "zh-Hans": "此标志禁止载运危险品的车辆进入指定路线或隧道，并非按车身类型禁止所有货车。",
+      "pages": "24"
+    },
+    "q0874200": {
+      "en": "A flashing amber cross above a lane warns of possible obstruction ahead. Slow down and prepare to change lanes safely; unlike a red cross, it does not itself close the lane.",
+      "zh-Hans": "车道上方闪烁橙色叉号提醒前方可能有障碍。应减速并准备安全变道；它与红叉不同，并不表示车道已经关闭。",
+      "pages": "25"
+    },
+    "q0882800": {
+      "en": "The bicycle-only track sign assigns that track to cyclists. The correct symbol is the cycle-route instruction, not a bicycle pictogram crossed out as a prohibition.",
+      "zh-Hans": "脚踏车专用道标志要求骑士使用指定车道。应选表示骑行路线的指示标志，而不是划掉脚踏车图案的禁行标志。",
+      "pages": "26"
+    },
+    "q0891400": {
+      "en": "The walking figure above a marked crossing warns of a designated pedestrian crossing ahead. Slow and be ready to let people cross.",
+      "zh-Hans": "行走人形下方的过道图案提示前方有指定行人过道。应减速并准备停车让行人过路。",
+      "pages": "18, 24"
+    },
+    "q0900000": {
+      "en": "Keep to the left of the centre marking in normal travel. A broken line does not prohibit crossing when allowed and safe.",
+      "zh-Hans": "正常行驶应靠中心线左侧。虚线并非绝对不能跨越；允许且安全时才可越线。",
+      "pages": "37"
+    },
+    "q0908400": {
+      "en": "The keyed answer does not match either handbook. The no-parking rule on both sides is given for double continuous white centre lines, not a single continuous white line. Check for separate kerb markings or signs.",
+      "zh-Hans": "视频答案与两本手册都不符。两侧均不准泊车适用于双白实线，不是单条连续白实线。另须看有无路缘标线或标志。",
+      "pages": "37",
+      "status": "conflict"
+    },
+    "q0917000": {
+      "en": "Steady amber means stop before the line unless you are already too close to stop safely. Slow down rather than speeding up to clear it.",
+      "zh-Hans": "橙灯长亮表示应在停止线前停车，除非已太靠近而无法安全停下。应减速，不要加速抢过路口。",
+      "pages": "44"
+    },
+    "q0925600": {
+      "en": "The green aspect permits going straight and the green right arrow permits the right turn. Make either movement only if its path is clear.",
+      "zh-Hans": "圆形绿灯允许直行，绿色右箭头允许右转。无论直行或转弯，都要先确认路线畅通。",
+      "pages": "44–46"
+    },
+    "q0934200": {
+      "en": "For a normal stop in a manual car, brake while still in gear, then depress the clutch near the stop to prevent stalling. Do not coast toward the red light.",
+      "zh-Hans": "手动挡正常停车时，先保持挡位并踩刹车，快停稳时再踩离合以免熄火。不要空挡滑向红灯。",
+      "pages": "69, 72",
+      "status": "context"
+    },
+    "q0942800": {
+      "en": "Steady amber means stop unless doing so would be unsafe because you are already too close to the stop line. The first option in this card has an OCR error; it describes that exception.",
+      "zh-Hans": "橙灯长亮应停车；如果已经太靠近停止线，无法安全停车，则是例外。此题第一个选项有文字识别错误，它所说的就是这一例外。",
+      "pages": "44"
+    },
+    "q0951400": {
+      "en": "The key is the handbook's front-and-back stop rule: approach from the front or rear and stop; approach from either side and proceed only if safe. The still frame does not clearly show the arm position, so use the handbook illustration to learn the actual gesture.",
+      "zh-Hans": "题目考的是手册的前后方停车手势：从警员前后方接近要停车；从两侧接近也须确认安全才可走。此静态画面的手臂姿势不清楚，应看手册插图辨认实际手势。",
+      "pages": "47",
+      "status": "context"
+    },
+    "q0977000": {
+      "en": "A brief horn warning can alert a driver who is drifting and may not have seen you. Create space and abandon the pass if unsafe; do not rely on the horn to gain priority.",
+      "zh-Hans": "短按喇叭可提醒正在偏离车道且可能没看到你的驾驶员。应拉开距离，不安全时放弃超车，不能靠鸣笛取得优先权。",
+      "pages": "64, 69",
+      "status": "context"
+    },
+    "q0985600": {
+      "en": "Match the traffic flow only within the speed limit and at a speed safe for conditions. If others are going too fast, do not follow them at that speed.",
+      "zh-Hans": "应在限速内且车速适合路况时配合车流；其他车辆开得过快时，不要跟着超速。",
+      "pages": "52, 69"
+    },
+    "q0994200": {
+      "en": "M is entering the roundabout. A is already circulating and approaches from M's right, so M must wait for A to pass.",
+      "zh-Hans": "M 正要驶入环岛，A 已在环岛内并从 M 的右方驶来，因此 M 要等 A 通过。",
+      "pages": "53"
+    },
+    "q1002800": {
+      "en": "In a jam, stay in the queue and move smoothly with the traffic. Jumping lanes or tailgating adds conflict and leaves less room to stop.",
+      "zh-Hans": "堵车时应排队，随车流平稳移动。插队或紧跟会增加冲突，并减少停车空间。",
+      "pages": "64, 69"
+    },
+    "q1011400": {
+      "en": "A slowing or stopped vehicle may hide a pedestrian at the zebra crossing. Slow down, prepare to stop and never overtake at the crossing.",
+      "zh-Hans": "减速或停着的车辆可能遮住斑马线上的行人。应减速并准备停车，不得在过道处超车。",
+      "pages": "62"
+    },
+    "q1019800": {
+      "en": "Road hogging is staying in a faster lane and obstructing traffic unnecessarily. Keep left when not overtaking or preparing for an appropriate turn.",
+      "zh-Hans": "霸占车道是无必要地留在较快的车道阻碍交通；没有超车或准备适当转弯时，应靠左行驶。",
+      "pages": "52"
+    },
+    "q1028400": {
+      "en": "If you cannot tell whether the rear blind area is clear, stop and get out to check before reversing. Mirrors alone cannot confirm that it is clear.",
+      "zh-Hans": "若无法确定后方盲区是否畅通，先停好车并下车查看，再倒车。只看后视镜不足以确认安全。",
+      "pages": "62"
+    },
+    "q1037000": {
+      "en": "Give older pedestrians time to cross, even if you have a green light. They may walk more slowly or misjudge vehicle speed; wait until they are clear.",
+      "zh-Hans": "即使亮绿灯，也应给年长行人时间过路。他们可能走得较慢或误判车速，应等他们通过。",
+      "pages": "62"
+    },
+    "q1045600": {
+      "en": "In heavy rain use headlights so others can see you, including from behind with the tail lights on. Lighting does not replace slowing down or leaving more space.",
+      "zh-Hans": "大雨中使用车头灯，让别人更容易看见你；尾灯也能让后方车辆看清。开灯不能代替减速和加大间距。",
+      "pages": "58"
+    },
+    "q1088400": {
+      "en": "Drugs, including medicines that cause drowsiness, can slow reactions and concentration. Check their effects and do not drive if impaired.",
+      "zh-Hans": "药物（包括会使人困倦的药）会降低反应速度和注意力。应确认药物影响，能力受损时不要开车。",
+      "pages": "65"
+    },
+    "q1131200": {
+      "en": "If you cannot locate the siren, slow down, check mirrors and surroundings, and make room when safe. Moving left may help in this scenario, but the handbook calls for the nearest safe edge rather than always the left.",
+      "zh-Hans": "听到警笛但无法判断方向时，先减速并查看后视镜和周围，安全时让出空间。此题选项是向左，但手册要求靠最近的安全路边，并非一律靠左。",
+      "pages": "62",
+      "status": "context"
+    },
+    "q1139800": {
+      "en": "Give way to the ambulance behind you. The keyed answer moves left, but the handbook says to signal and pull to the nearest safe edge, slowing or stopping if necessary.",
+      "zh-Hans": "给后方救护车让行。视频答案是向左靠，但手册要求打灯并靠最近的安全路边，必要时减速或停车。",
+      "pages": "62",
+      "status": "context"
+    },
+    "q1191200": {
+      "en": "Use the appropriate right-hand lane for a permitted right turn; follow lane arrows and signal before positioning.",
+      "zh-Hans": "在允许右转的地方，按车道箭头进入适当的右侧车道，并在变道或靠右前打灯。",
+      "pages": "50"
+    },
+    "q1208400": {
+      "en": "The split-traffic sign allows vehicles to pass on either side of the island. Choose a permitted route that is safe and follow lane markings.",
+      "zh-Hans": "两侧可通行标志允许从交通岛任一侧通过。应选择安全的允许路线并遵守车道标线。",
+      "pages": "10"
+    },
+    "q1217000": {
+      "en": "At the STOP sign on the minor road, stop fully at the line and yield to traffic on the major road before moving.",
+      "zh-Hans": "支路上的停车标志要求在停止线前完全停稳，让主路车辆先行，然后才可继续。",
+      "pages": "10, 52"
+    },
+    "q1225600": {
+      "en": "The red cross over the blue disc means no stopping, not merely no waiting. Do not stop there even to pick up or drop off passengers.",
+      "zh-Hans": "蓝色圆牌上的红叉表示禁止停车，不仅仅是禁止等候，即使为了上下客也不可停车。",
+      "pages": "11"
+    },
+    "q1234200": {
+      "en": "A crossed-out left-turn arrow forbids the left turn. It does not by itself prohibit going straight or right where those movements are otherwise allowed.",
+      "zh-Hans": "划掉的左转箭头只禁止左转；如果没有其他限制，仍可直行或右转。",
+      "pages": "11"
+    },
+    "q1242800": {
+      "en": "A barrier symbol warns of a guarded level crossing. Slow down and watch for the gate or signals; never enter while the gate is closing.",
+      "zh-Hans": "闸门图案提示前方有闸门铁路道口。应减速，留意闸门和信号；闸门正在关闭时不得进入。",
+      "pages": "17"
+    },
+    "q1251200": {
+      "en": "The junction warning means traffic can approach across your path. Reduce speed, check both ways and obey any give-way or priority controls before entering.",
+      "zh-Hans": "路口警告提示可能有横向来车。应减速、观察两侧，并按让行和优先规定进入。",
+      "pages": "14–15, 52–53"
+    },
+    "q1268400": {
+      "en": "The side branch in the warning sign shows where joining traffic can emerge. Slow down and watch particularly on the side depicted.",
+      "zh-Hans": "警告标志中的支线表示汇入车辆可能出现的一侧。应减速，特别留意图示方向。",
+      "pages": "15"
+    },
+    "q1285600": {
+      "en": "The start-of-expressway sign marks where expressway rules begin. Follow lane, speed and stopping restrictions from that point.",
+      "zh-Hans": "高速公路起点标志表示从此处开始适用高速公路规则，包括车道、限速和停车规定。",
+      "pages": "23"
+    },
+    "q1294200": {
+      "en": "The words REDUCE SPEED NOW tell you to slow immediately. That instruction does not by itself identify a specific hazard; the handbook's warning-sign guidance is to slow and proceed with extra care.",
+      "zh-Hans": "REDUCE SPEED NOW 字样要求立即减速，但没有单独说明危险种类；手册对警告标志的一般要求是减速并格外小心。",
+      "pages": "14, 17",
+      "status": "context"
+    },
+    "q1302600": {
+      "en": "A red cross above a lane means the lane is closed. Leave or avoid it using a safe lane change; it is not just a caution symbol.",
+      "zh-Hans": "车道上方红叉表示该车道关闭。应安全变道驶离或避开，不是单纯的警告。",
+      "pages": "25"
+    },
+    "q1319800": {
+      "en": "Children can move into the road suddenly and may not judge speed reliably. Slow well in advance and be ready to stop.",
+      "zh-Hans": "儿童可能突然走上车道，也可能判断不准车速。要提前减速并准备停车。",
+      "pages": "18, 62, 64"
+    },
+    "q1328400": {
+      "en": "A single yellow zigzag prohibits waiting or parking but allows immediate passenger pickup or drop-off under the stated rule. Do not confuse it with a double yellow zigzag.",
+      "zh-Hans": "单黄锯齿线禁止等候或泊车，但按规定可即时上下客；不要与双黄锯齿线混淆。",
+      "pages": "38"
+    },
+    "q1337000": {
+      "en": "Double yellow zigzags mean no stopping, including stopping briefly to drop off a passenger.",
+      "zh-Hans": "双黄锯齿线表示不准停车，包括短暂停车让乘客下车。",
+      "pages": "38"
+    },
+    "q1345600": {
+      "en": "For both straight-ahead and right-turning traffic to go, the straight movement must have green and the right-turn direction must also have permission, shown here by the green right arrow.",
+      "zh-Hans": "直行和右转车辆同时可前进时，直行应有绿灯，右转也应获准；图中由绿色右转箭头表示。",
+      "pages": "44–46"
+    },
+    "q1422600": {
+      "en": "A goes straight while vehicles B and C would cross other traffic paths. The recording gives A priority; check all conflicting approaches rather than taking the answer as a general rule for all junctions.",
+      "zh-Hans": "A 直行，而 B 和 C 的路线会与其他车流交叉。视频让 A 先行；实际路口仍要查看所有冲突方向，不可把此答案套用于所有路口。",
+      "pages": "52, 53"
+    },
+    "q1431200": {
+      "en": "In the figure, B's intended turn conflicts with A's movement. The keyed vehicle B must wait and turn only when that path is clear.",
+      "zh-Hans": "图中 B 的转弯路线与 A 的路线冲突，答案中的 B 应等 A 通过、路线清楚后再转弯。",
+      "pages": "52–53"
+    },
+    "q1439800": {
+      "en": "The handbook says to replace a tyre once its tread is below 1.6 mm. Worn tread provides less grip and increases the risk of skidding.",
+      "zh-Hans": "手册要求胎纹深度低于 1.6 毫米时更换。磨损的胎纹抓地较差，打滑风险更高。",
+      "pages": "70"
+    },
+    "q1448400": {
+      "en": "The age requirement for the ordinary motorcar driving-licence route is 18. Being old enough does not replace the other eligibility requirements.",
+      "zh-Hans": "普通汽车驾驶执照途径的年龄要求为 18 岁；达到年龄并不代替其他资格条件。",
+      "pages": "3"
+    },
+    "q1457000": {
+      "en": "The default road speed limit is 50 km/h unless another limit applies or is posted. It is a maximum, not a target in poor conditions.",
+      "zh-Hans": "没有其他适用或标示限速时，道路默认限速为每小时 50 公里。这是上限，路况不佳时不应以此为目标车速。",
+      "pages": "52"
+    },
+    "q1474000": {
+      "en": "An illuminated cabin can reflect in the windscreen at night and make the road harder to see. The handbook discusses night visibility, not a blanket ban on interior lighting.",
+      "zh-Hans": "夜间车内灯光可能在挡风玻璃上反射，使路面更难看清。手册讨论夜间能见度，并未一概禁止使用车内灯。",
+      "pages": "67",
+      "status": "context"
+    },
+    "q1491200": {
+      "en": "Being below the prescribed limit is not a defence if alcohol makes you incapable of properly controlling the vehicle.",
+      "zh-Hans": "如果酒精已使你无法妥善控制车辆，即使酒精浓度低于法定限值，也不能以此免责。",
+      "pages": "58"
+    },
+    "q1517000": {
+      "en": "A stopped bus hides pedestrians who may step out from the front or between vehicles. Slow down and pass only when you can see enough to stop safely.",
+      "zh-Hans": "停站的巴士会遮住可能从车头或车辆之间走出的行人。应减速，看清且能安全停车时才通过。",
+      "pages": "62, 64"
+    },
+    "q1568400": {
+      "en": "If depth or road condition under the water is uncertain, use another route. Deep water can stall the vehicle or hide a hazard.",
+      "zh-Hans": "不确定水深或水下路况时，应改道。深水可能使车辆熄火，也可能掩盖危险。",
+      "pages": "66"
+    },
+    "q1611200": {
+      "en": "Road hogging means impeding traffic by remaining in a faster or overtaking lane unnecessarily. Keep left where appropriate rather than prompting risky passes on the left.",
+      "zh-Hans": "霸占车道指无必要地留在较快车道或超车道，阻碍后车。应在适当情况下靠左，避免诱使他人冒险从左超越。",
+      "pages": "52"
+    },
+    "q1619800": {
+      "en": "Normal bus lanes operate Monday–Friday, 7:30–9:30 a.m. and 5–8 p.m., except public holidays. Full-day lanes have different hours; check signs and markings.",
+      "zh-Hans": "普通巴士车道在周一至周五早上 7:30 至 9:30、傍晚 5:00 至 8:00 限行，公共假日除外。全日制车道时段不同，应看标志和标线。",
+      "pages": "40"
+    },
+    "q1637000": {
+      "en": "A school patrol warden displaying STOP CHILDREN requires you to stop and let the children cross. Wait for the crossing to clear.",
+      "zh-Hans": "校区交通指挥员出示 STOP CHILDREN 标志时，必须停车让学童通过，等过道清空后再走。",
+      "pages": "62"
+    },
+    "q1654000": {
+      "en": "The arrows give the maximum overall vehicle width. Here vehicles wider than 2.3 m must not enter.",
+      "zh-Hans": "双箭头之间的数字是车辆总宽上限。图中宽度超过 2.3 米的车辆禁止驶入。",
+      "pages": "12"
+    },
+    "q1662600": {
+      "en": "A crossed-out right arrow forbids the right turn at that point; use another legal route.",
+      "zh-Hans": "划掉的右转箭头表示该处禁止右转，应改走其他合法路线。",
+      "pages": "11"
+    },
+    "q1679800": {
+      "en": "The branch is drawn on the right of the main road line. Look for traffic emerging on the right and slow in time to respond.",
+      "zh-Hans": "支线画在主路线条的右边。应留意右侧驶出的车辆，并提前减速以便应对。",
+      "pages": "15"
+    },
+    "q1688400": {
+      "en": "The warning triangle goes at least 20 m behind the disabled vehicle to give approaching drivers time to react. Do not expose yourself to fast traffic to place it.",
+      "zh-Hans": "三角警告牌应放在故障车后至少 20 米，让后方来车有反应时间。摆放时不要让自己暴露在高速车流中。",
+      "pages": "17"
+    },
+    "q1697000": {
+      "en": "The triangle with traffic lights warns of traffic signals ahead. Slow in time so you can respond to a red or amber signal.",
+      "zh-Hans": "三角形内有红绿灯图案，表示前方有交通信号灯。要提前减速，以便应对红灯或橙灯。",
+      "pages": "14"
+    },
+    "q1705400": {
+      "en": "The side roads drawn offset from one another mark a staggered junction, rather than a single aligned crossroads.",
+      "zh-Hans": "图中的两条支路彼此错位，表示错列路口，不是四条路对齐的十字路口。",
+      "pages": "15"
+    },
+    "q1714000": {
+      "en": "The parking symbol identifies a parking place. Follow any supplementary signs, vehicle-class rules and conditions rather than assuming every space is unrestricted.",
+      "zh-Hans": "泊车标志表示此处设有停车地点。仍要遵守附牌、车型及其他条件，不可认为每个泊位都没有限制。",
+      "pages": "21"
+    },
+    "q1757000": {
+      "en": "The white zigzags mark the approach to a pedestrian crossing. Slow and look for people, and do not overtake or wait in the marked zone.",
+      "zh-Hans": "白色锯齿线标示行人过道的接近区。应减速观察，不要在标线区内超车或等候。",
+      "pages": "42"
+    },
+    "q1765400": {
+      "en": "Double continuous yellow lines at the kerb prohibit parking on that side at all times.",
+      "zh-Hans": "路缘两条连续黄实线表示任何时候都不得在该侧泊车。",
+      "pages": "38"
+    },
+    "q1774000": {
+      "en": "The amber right-pointing arrow tells right-turning vehicles to prepare to stop behind their stop line.",
+      "zh-Hans": "向右的橙色箭头表示右转车辆应准备在停止线后停车。",
+      "pages": "45"
+    },
+    "q1791200": {
+      "en": "When already over the stop line as amber appears, clear the junction safely rather than stopping in the middle. Stop at the line when you still can do so safely.",
+      "zh-Hans": "灯转橙时若已越过停止线，应安全驶离路口，不要在路口中间停车。仍能安全停车时则应停在停止线前。",
+      "pages": "44",
+      "status": "context"
+    },
+    "q1808400": {
+      "en": "The officer's posture permits vehicles approaching from the officer's right to proceed. Read the signal relative to the officer's own body, not to the viewer.",
+      "zh-Hans": "此姿势允许从警员右侧驶来的车辆前进。方向以警员本人为准，不是以看图的人为准。",
+      "pages": "48"
+    },
+    "q1825400": {
+      "en": "The rider extends the arm toward the intended turn: the keyed picture shows the rider's arm on the intended side. Use functioning indicators where fitted and check that the turn is safe.",
+      "zh-Hans": "骑士向要转弯的一侧伸臂；正确图示的手臂伸向预定方向。有转向灯时应正确使用，并先确保转弯安全。",
+      "pages": "49",
+      "status": "context"
+    },
+    "q1842600": {
+      "en": "If the vehicle you are overtaking accelerates, abandon the pass rather than racing it. Slow down and move back only when there is a safe gap.",
+      "zh-Hans": "被超车辆加速时应放弃超车，不要竞速。减速并等有安全空隙再驶回。",
+      "pages": "50–51"
+    },
+    "q1851200": {
+      "en": "In the diagram B turns across A's path, so B waits for A. The rule is about the conflicting paths, not the cars' labels.",
+      "zh-Hans": "图中 B 转弯横穿 A 的路线，因此 B 应等 A 先行。判断依据是路线冲突，不是车辆字母。",
+      "pages": "52–53"
+    },
+    "q1859800": {
+      "en": "A is joining the main stream from the side. It must wait for a safe gap instead of requiring B, which is already on the main road, to brake or move over.",
+      "zh-Hans": "A 从侧方汇入主车流，应等待安全空隙，不能迫使已经在主路上行驶的 B 刹车或让道。",
+      "pages": "52, 64"
+    },
+    "q1868400": {
+      "en": "Slow down and give vulnerable road users space. The handbook specifies at least 1 m for pedestrians facing traffic and 1.5 m when facing away, and recommends 1.5 m for cyclists where practicable.",
+      "zh-Hans": "超越易受伤的道路使用者时应减速并留出空间。手册规定会向来车的行人至少留 1 米、背向来车的行人至少留 1.5 米；条件允许时超越骑士也应留 1.5 米。",
+      "pages": "62"
+    },
+    "q1885400": {
+      "en": "Slow down for a pedestrian crossing, do not overtake there, and give way to people crossing or about to cross. At a controlled crossing still yield to people who have not finished crossing.",
+      "zh-Hans": "接近行人过道应减速，不可超车，并让正在或即将过路的行人先行。有信号控制时，仍要让尚未走完的人先通过。",
+      "pages": "62"
+    },
+    "q1894000": {
+      "en": "Slow when children are standing beside the road. Give them space and be ready to stop because they can step into the road without warning.",
+      "zh-Hans": "路旁有儿童时应减速并留出空间。他们可能突然踏入车道，要准备停车。",
+      "pages": "62, 64"
+    },
+    "q1902600": {
+      "en": "A dip can hide oncoming traffic just beyond it. Do not start an overtake until you can see enough road to complete it safely.",
+      "zh-Hans": "道路凹处可能遮住刚过凹处的对向车。视距不足以安全完成超车时，不要开始超车。",
+      "pages": "50"
+    },
+    "q1911200": {
+      "en": "Use a horn as a brief warning of danger, not to demand priority, greet somebody or vent frustration.",
+      "zh-Hans": "喇叭用于短促警示危险，不应用来抢优先权、打招呼或发泄情绪。",
+      "pages": "64, 70",
+      "status": "context"
+    },
+    "q1928400": {
+      "en": "The handbooks specify both a fine and a prison term for repeat drink-driving. Disqualification is a separate consequence; do not confuse the repeat-offender rule with the first-offence sentencing options.",
+      "zh-Hans": "手册列明再次酒驾会同时面临罚款和监禁。取消驾驶资格是另一项后果；不要与初犯可采用的不同量刑方式混淆。",
+      "pages": "58"
+    },
+    "q2048200": {
+      "en": "Acknowledge the inconvenience courteously without taking your attention off driving. The handbook stresses considerate behaviour, not a particular apology gesture.",
+      "zh-Hans": "应有礼貌地为造成的不便表示歉意，同时保持对驾驶的注意力。手册强调礼让，没有规定特定道歉手势。",
+      "pages": "64",
+      "status": "context"
+    },
+    "q2056800": {
+      "en": "A breakdown is an exception allowing you to use the expressway shoulder. If possible, move clear of live lanes, warn traffic and get help from a safe position.",
+      "zh-Hans": "车辆故障时允许使用高速公路路肩。能移动就离开行车道，警示来车，并在安全位置求助。",
+      "pages": "54, 56"
+    },
+    "q2074000": {
+      "en": "A left signal before the side road can be mistaken for a turn into it. If stopping just beyond it, signal clearly once past the junction and slow smoothly.",
+      "zh-Hans": "在支路前打左灯容易让人误以为你要左转。若在支路之后停车，应过了路口再明确打灯，并平稳减速。",
+      "pages": "60",
+      "status": "context"
+    },
+    "q2082600": {
+      "en": "The parking brake holds a stationary car when waiting or parking. Check that it is applied before starting a manual car and before releasing the foot brake where appropriate.",
+      "zh-Hans": "驻车制动在等候或泊车时用于固定静止车辆。手动挡车启动前应确认已拉好；适当情况下，要先拉好再松脚刹。",
+      "pages": "56, 69",
+      "status": "context"
+    },
+    "q2099800": {
+      "en": "If you miss the exit, continue to the next one. Do not stop, reverse or cut across lanes to recover the missed exit.",
+      "zh-Hans": "错过出口就继续行驶，到下一个出口再驶离。不可停车、倒车或突然跨越车道抢回出口。",
+      "pages": "50, 54",
+      "status": "context"
+    },
+    "q2108200": {
+      "en": "Once the shift is complete, remove your foot from the clutch and rest it on the floor or footrest. Resting on the pedal can partly disengage and wear the clutch.",
+      "zh-Hans": "换挡完成后把左脚移开离合器，放在地板或歇脚板上。脚一直搭在踏板上可能让离合器半分离并加快磨损。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q2125400": {
+      "en": "The handbook describes easing and reapplying the brake to prevent or recover from wheel lock on slippery roads. Do not apply that as a universal ABS rule: in an emergency with ABS, press firmly and maintain pressure, following the vehicle manual.",
+      "zh-Hans": "手册在湿滑路面章节介绍松开并重新踩刹车以防止或解除车轮抱死。不要把这一方法用于所有 ABS 车辆；配有 ABS 时，紧急制动应持续用力踩住刹车，并遵循车辆手册。",
+      "pages": "66",
+      "status": "context"
+    },
+    "q2142600": {
+      "en": "In the diagram, A is the straight-through vehicle while B and C would turn through conflicting space. Let A clear it first.",
+      "zh-Hans": "图中 A 直行，B、C 转弯会经过冲突区域，应先让 A 通过。",
+      "pages": "52–53"
+    },
+    "q2151200": {
+      "en": "The keyed answer says neither A nor C gives way to B. Trace their intended routes: the handbook's junction rules apply to actual conflicts, not automatically to all three cars.",
+      "zh-Hans": "视频答案是 A、C 都不需要让 B。应沿箭头判断各车路线，手册的让行规则针对实际冲突，并不自动适用于图中所有车辆。",
+      "pages": "52–53",
+      "status": "context"
+    },
+    "q2168200": {
+      "en": "Wait for pedestrians already crossing the side road before turning. Turning traffic must not cut across the person crossing.",
+      "zh-Hans": "左转进入支路前，应等正在过路的行人通过，不要转弯抢行截断其路线。",
+      "pages": "62"
+    },
+    "q2245400": {
+      "en": "At a blind bend, a brief headlight flash can warn other road users of your presence. Slow down and avoid dazzling others; flashing does not give you priority.",
+      "zh-Hans": "在视线受阻的弯道，短暂闪灯可提醒其他道路使用者你正在接近。应减速并避免使人眩目；闪灯不代表取得优先权。",
+      "pages": "58, 68"
+    },
+    "q2254000": {
+      "en": "The handbook's basic rule is to keep left except to overtake or, where applicable, turn right. Yield to responding emergency vehicles; the rightmost lane is not for ordinary cruising.",
+      "zh-Hans": "手册的基本规则是靠左，超车或可右转时例外。要给执行紧急任务的车辆让路；最右车道不是日常巡航车道。",
+      "pages": "50, 54",
+      "status": "context"
+    },
+    "q2262600": {
+      "en": "Avoiding an immediate collision can require an emergency move. This is not permission to use a restricted bus lane for convenience; normally keep out or use the permitted broken-line turning section.",
+      "zh-Hans": "为避免迫在眉睫的碰撞，可能不得不紧急避让。这不等于可以为了方便使用限行巴士车道；平时应避开，或按规定从虚线段转入。",
+      "pages": "40",
+      "status": "context"
+    },
+    "q2279600": {
+      "en": "Where a specific left-turn-on-red sign permits the turn, first stop at the line, then give way to pedestrians and traffic and proceed only if clear.",
+      "zh-Hans": "专门的红灯可左转标志允许转弯时，也必须先在停止线前停车，让行人和车辆先行，安全后才可左转。",
+      "pages": "19",
+      "status": "context"
+    },
+    "q2288200": {
+      "en": "The upward arrow on a blue circle means straight ahead only. It prohibits left and right turns at that point.",
+      "zh-Hans": "蓝色圆牌上的向上箭头表示只准直行，该处不准左转或右转。",
+      "pages": "9"
+    },
+    "q2296800": {
+      "en": "After passing, wait until you can see the overtaken vehicle in the interior mirror, then signal and return left if clear. This leaves a useful buffer before cutting back in.",
+      "zh-Hans": "超车后，等能在车内后视镜看到被超车辆，再打灯并确认安全靠回左侧，以留出足够间距。",
+      "pages": "51"
+    },
+    "q2305400": {
+      "en": "The keyed diagram has A yield to both B and C. Trace the turn arrows: A should wait until both conflicting movements clear before turning. Do not infer priority from the letters.",
+      "zh-Hans": "题图中 A 要让 B、C 两辆车。沿箭头看转弯路线：A 应等两条冲突路线都清空再转弯，不可按字母判断优先权。",
+      "pages": "52–53",
+      "status": "context"
+    },
+    "q2314000": {
+      "en": "The keyed diagram has B go ahead while A and C wait. Compare the straight path with the turning paths before deciding whether the junction is clear.",
+      "zh-Hans": "题图中 B 先走，A 和 C 等候。应比较直行与各转弯路线，再判断路口是否畅通。",
+      "pages": "52–53",
+      "status": "context"
+    },
+    "q2322600": {
+      "en": "Replace tyres with less than 1.6 mm of tread. Bald tyres lose wet grip and make skids and longer stopping distances more likely.",
+      "zh-Hans": "胎纹不足 1.6 毫米应更换。磨平的轮胎在湿路上的抓地力较差，更容易打滑，停车距离也更长。",
+      "pages": "61, 70"
+    },
+    "q2331000": {
+      "en": "The handbook recommends a mirror check every 5–10 seconds while driving along, in addition to checks before changing speed or direction.",
+      "zh-Hans": "手册建议正常行驶时每 5 至 10 秒看一次后视镜，改变车速或方向之前还要查看。",
+      "pages": "60"
+    },
+    "q2339600": {
+      "en": "Double solid white centre lines must not be crossed, and reversing from a minor road into a main road is prohibited. Both rules prevent unsafe conflicts with traffic in the other path.",
+      "zh-Hans": "不得跨越双白实线，也不得从支路倒车驶入主路。这些规定是为了避免与其他行驶路线上的车辆发生危险冲突。",
+      "pages": "37, 62"
+    },
+    "q2356800": {
+      "en": "Fatigue or medicine that affects alertness makes it unsafe to drive. If already driving and tired, leave the expressway and rest at a safe place instead of using the shoulder as a rest area.",
+      "zh-Hans": "疲劳或影响警觉性的药物会使驾车不安全。已在高速公路上感到困倦时，应驶离高速，到安全地点休息，不要把路肩当休息区。",
+      "pages": "65"
+    },
+    "q2425400": {
+      "en": "In slow traffic, leave useful space to let Y emerge rather than moving up to block the side junction. Check the gap is safe and do not invite Y across an unseen lane.",
+      "zh-Hans": "车流缓慢时，留出空间让 Y 驶出，不要向前堵住支路口。要确认空间安全，不要示意 Y 穿过你看不见的车道。",
+      "pages": "64–65"
+    },
+    "q2451000": {
+      "en": "The handbook requires no more than 12 demerit points when applying for a PDL or booking or taking a test, as applicable. Having 13 exceeds that limit.",
+      "zh-Hans": "手册要求申请临时驾驶执照或预约、参加考试（按适用情况）时累计记分不超过 12 分。13 分已经超限。",
+      "pages": "4"
+    },
+    "q2476800": {
+      "en": "Leave room for a door to open and for people to step out around parked vehicles. This card uses one metre; wait or slow further if you cannot keep enough clearance.",
+      "zh-Hans": "超越停放车辆时要给开门或走出的行人留出空间。此题用一米；间距不足时应等候或进一步减速。",
+      "pages": "62, 64",
+      "status": "context"
+    },
+    "q2494000": {
+      "en": "An ordinary automatic car has an accelerator and brake pedal, but no driver-operated clutch pedal.",
+      "zh-Hans": "普通自动挡汽车有油门和刹车踏板，没有驾驶员操作的离合器踏板。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q2519600": {
+      "en": "Select a suitable low gear before a steep descent to benefit from engine braking. A lower gear gives stronger engine braking and reduces reliance on the service brakes, which can overheat if used continuously.",
+      "zh-Hans": "驶下陡坡前选适合的低挡，利用发动机制动。挡位越低，发动机制动通常越强，可减少持续使用脚刹而引起过热的风险。",
+      "pages": "68, 72",
+      "status": "context"
+    },
+    "q2528200": {
+      "en": "Pressing the clutch disconnects engine drive from the wheels. Holding it down or coasting in neutral also removes engine braking; don't coast as a way to control speed.",
+      "zh-Hans": "踩下离合器会切断发动机到车轮的动力。长踩离合或用空挡滑行也失去发动机制动，不要靠滑行控制车速。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q2545400": {
+      "en": "Slow and select a suitable gear before the turn so the car is in gear throughout it. A particular gear number depends on speed and the vehicle; don't hold the clutch down in the bend.",
+      "zh-Hans": "转弯前先减速并选好合适挡位，过弯期间保持挡位接合。具体挡位取决于车速及车辆，不要在弯中一直踩离合。",
+      "pages": "68, 72",
+      "status": "context"
+    },
+    "q2562400": {
+      "en": "On a manual hill start, coordinate the parking brake, accelerator and clutch engagement so the car cannot roll back. Releasing the clutch suddenly can stall the engine. If it stalls, brake and secure the car before trying again.",
+      "zh-Hans": "手动挡坡起要配合驻车制动、油门及离合接合，防止后溜。突然松离合可能熄火；熄火后立即刹住并固定车辆，再尝试起步。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q2571000": {
+      "en": "A safe pass on the left is an exception when the vehicle ahead is signalling to turn right; check that there is room rather than squeezing past.",
+      "zh-Hans": "前车打灯准备右转时可在安全条件下从左侧通过；应确认有足够空间，不可硬挤过去。",
+      "pages": "50"
+    },
+    "q2579600": {
+      "en": "Before and during reversing, check behind, including blind areas; look through the rear window when appropriate and use mirrors as aids. Never reverse out from a minor road into a main road.",
+      "zh-Hans": "倒车前及倒车时都要观察后方及盲区；适合时转头透过后窗观察，后视镜仅作辅助。切勿从支路倒车驶入主路。",
+      "pages": "62"
+    },
+    "q2588200": {
+      "en": "Do not reverse from a minor road into a main road. It gives you limited sight of through traffic and leaves approaching drivers little time to react.",
+      "zh-Hans": "不得从支路倒车驶入主路。这样难以看清直行车流，迎面驶近的驾驶员也难以及时反应。",
+      "pages": "62"
+    },
+    "q2605400": {
+      "en": "A front puncture can make the car pull toward that tyre. Hold the steering firmly, ease off the accelerator and slow to a safe stop without a harsh brake application.",
+      "zh-Hans": "前轮爆胎可能使车辆向爆胎一侧偏。应握稳方向盘、松油门并逐渐减速到安全地点停车，避免猛踩刹车。",
+      "pages": "70",
+      "status": "context"
+    },
+    "q2614000": {
+      "en": "The tendency to drift outward gets stronger with speed and a tighter bend. Reduce speed before entering so you can hold your path without a sudden correction.",
+      "zh-Hans": "车速越快、弯越急，车辆向外偏的趋势就越强。入弯前减速，避免弯中突然修正方向。",
+      "pages": "69"
+    },
+    "q2622400": {
+      "en": "Reaction distance is the distance covered from noticing the hazard until you apply the brake. Braking distance starts after brake application.",
+      "zh-Hans": "反应距离是发现危险到踩下刹车之间驶过的距离；开始制动之后驶过的才是制动距离。",
+      "pages": "61"
+    },
+    "q2665400": {
+      "en": "Approach a green signal at a speed that allows you to stop safely if it changes. A green light is not a reason to accelerate on approach.",
+      "zh-Hans": "以变灯后仍能安全停车的车速接近绿灯；绿灯不是加速接近路口的理由。",
+      "pages": "44, 69"
+    },
+    "q2682400": {
+      "en": "Leave extra room behind a large vehicle. It blocks your view, and in rain its spray reduces visibility further; drop back until you can see and stop safely.",
+      "zh-Hans": "跟随大车要加大距离。大车会挡住视线，雨天溅水还会进一步影响能见度；应拉开距离，直到能看清并安全停车。",
+      "pages": "60, 64"
+    },
+    "q2699600": {
+      "en": "Poor maintenance can make a car unsafe. Check the cooling system and maintain tyres, brakes, suspension and wipers rather than waiting for overheating or a failure.",
+      "zh-Hans": "保养不足会使车辆不安全。应检查冷却系统并保养轮胎、制动、悬挂及雨刷，不要等到过热或故障才处理。",
+      "pages": "70–71",
+      "status": "context"
+    },
+    "q2708200": {
+      "en": "With the vehicle level and the engine off as instructed by its manual, the dipstick reading should be between the minimum and maximum marks. Do not overfill.",
+      "zh-Hans": "按车辆手册在平地熄火检查，油尺读数应在最低和最高刻线之间，不要加过量。",
+      "pages": "70, 72",
+      "status": "context"
+    },
+    "q2725400": {
+      "en": "Do not handle a ringing phone while driving. Continue to a safe, legal place off the expressway before answering or returning the call; do not stop on the shoulder for it.",
+      "zh-Hans": "驾车时不要拿起响铃的手机。应驶离高速到安全合法的地点再接听或回拨，不要因此在路肩停车。",
+      "pages": "54, 59"
+    },
+    "q2733800": {
+      "en": "Do not drive or stop on the expressway shoulder in normal operation. The handbook reserves exceptions for a breakdown, accident or emergency.",
+      "zh-Hans": "正常情况下不得在高速公路路肩行驶或停车。手册仅在故障、事故或紧急情况时允许例外。",
+      "pages": "54"
+    },
+    "q2742400": {
+      "en": "Allow for a cyclist changing direction or losing balance. Slow down, wait if the road is too narrow and leave at least 1.5 metres when practicable instead of squeezing past.",
+      "zh-Hans": "骑士可能突然转向或失去平衡。应减速，路太窄时等候；条件允许时至少留出 1.5 米，不要贴身超越。",
+      "pages": "62, 64"
+    },
+    "q2751000": {
+      "en": "A cyclist looking back may be preparing to turn or adjust road position. Slow, stay back and allow time and room for the move.",
+      "zh-Hans": "骑士回头看可能准备转弯或改变行驶位置。应减速留在后方，给对方时间和空间。",
+      "pages": "62, 64"
+    },
+    "q2759600": {
+      "en": "A signal left on after the manoeuvre misleads others into thinking you will turn again. Cancel it so nobody moves into your path based on a false signal.",
+      "zh-Hans": "动作完成后转向灯还亮着，会让别人误以为你还要转弯。应关闭转向灯，防止他人误判而驶入你的路线。",
+      "pages": "60"
+    },
+    "q2768200": {
+      "en": "Adjust the centre rear-view mirror so it shows as much of the rear window as possible while you are in your normal driving position.",
+      "zh-Hans": "保持正常坐姿，把车内后视镜调到尽量看全后窗的位置。",
+      "pages": "60, 72",
+      "status": "context"
+    },
+    "q2776800": {
+      "en": "A parked or stopped vehicle with a driver inside can pull out suddenly. Ease off early and leave room to react.",
+      "zh-Hans": "停着的车里有驾驶员，可能突然驶出。应提前减速并留出反应空间。",
+      "pages": "64"
+    },
+    "q2785400": {
+      "en": "Before using an unfamiliar car in traffic, learn its controls and check its brake response at low speed in a safe place.",
+      "zh-Hans": "驾驶不熟悉的车辆上路前，应先熟悉控制件，并在安全地点低速试验刹车反应。",
+      "pages": "70",
+      "status": "context"
+    },
+    "q2793800": {
+      "en": "Before opening a door, check behind and alongside for cyclists, riders, vehicles and pedestrians. Open it only if it will not endanger or obstruct them.",
+      "zh-Hans": "开门前观察车后和车侧，留意骑士、车辆及行人。只有不会危及或妨碍他人时才打开车门。",
+      "pages": "56"
+    },
+    "q2802400": {
+      "en": "Keep your eyes on the road when shifting. Learn the selector positions so you do not need to look down while the vehicle is moving.",
+      "zh-Hans": "换挡时视线应留在路面。熟悉挡位位置，车辆行进时不要低头找挡。",
+      "pages": "64, 72",
+      "status": "context"
+    },
+    "q2811000": {
+      "en": "Start normal braking early, apply enough pressure to slow predictably, and ease as you approach a smooth stop. The keyed wording is not a reason to slam on the brakes in ordinary traffic.",
+      "zh-Hans": "正常停车应提前制动，以足够的力度平稳减速，接近停稳时逐渐松力；不能把题目中的字眼理解为平时要猛踩刹车。",
+      "pages": "69",
+      "status": "context"
+    },
+    "q2836800": {
+      "en": "Do not squeeze past a rider or a vehicle negotiating the same entrance or turn. Slow down, keep back and complete your own turn after the path clears.",
+      "zh-Hans": "不要贴身超越正在同一入口或弯道转向的骑士或车辆。应减速留在后方，等路线空出来再转弯。",
+      "pages": "62, 64"
+    },
+    "q2862400": {
+      "en": "Once committed to a safe overtake, pass without lingering alongside. That does not authorise exceeding the speed limit or accelerating into a closing gap.",
+      "zh-Hans": "确认安全开始超车后，不要长时间并排行驶；这不允许超速，也不允许加速冲入正在缩小的空隙。",
+      "pages": "51",
+      "status": "context"
+    },
+    "q2888200": {
+      "en": "The left arrow requires the turn shown. Notice whether its shape indicates the turn here or ahead, and follow the sign rather than treating it as advisory.",
+      "zh-Hans": "左箭头要求按所示方向转弯。留意箭头形状指的是此处还是前方，不要把强制标志只当建议。",
+      "pages": "9"
+    },
+    "q2896800": {
+      "en": "The blue circle with a white arrow to the right is the mandatory sign. It requires the indicated direction; a warning triangle only alerts you to a hazard.",
+      "zh-Hans": "蓝色圆牌上的白色右箭头是强制标志，要求按所示方向行驶；三角警告牌仅提示危险。",
+      "pages": "9"
+    },
+    "q2905200": {
+      "en": "The red-ringed 80 is a maximum speed of 80 km/h, not a minimum or recommended cruising speed.",
+      "zh-Hans": "红圈内的 80 表示最高每小时 80 公里，并非最低或建议巡航速度。",
+      "pages": "13"
+    },
+    "q2913800": {
+      "en": "A red bar through the left-turn arrow prohibits that turn; it is not a general warning sign.",
+      "zh-Hans": "左转箭头被红色斜线划掉表示禁止左转，不是一般警告标志。",
+      "pages": "11"
+    },
+    "q2922400": {
+      "en": "The red-bordered triangle with circular arrows warns of a roundabout ahead. The triangular border marks it as a warning rather than a direction order.",
+      "zh-Hans": "红边三角形内的循环箭头提示前方有环岛。三角形是警告标志，不是方向命令。",
+      "pages": "14, 16"
+    },
+    "q2939600": {
+      "en": "The alternating bends in the symbol warn of a series of curves. Reduce speed before entering them.",
+      "zh-Hans": "图案中交替弯曲的线条提示前方连续弯道，应在进入前减速。",
+      "pages": "14"
+    },
+    "q2948200": {
+      "en": "Several irregular bumps depict an uneven road. A single rounded bump is the separate hump-ahead warning.",
+      "zh-Hans": "多个不规则起伏表示路面不平；单个圆弧形隆起是另一种前方有减速丘的警告。",
+      "pages": "17"
+    },
+    "q2956800": {
+      "en": "The bus-stop sign marks a place where buses pick up and set down passengers. Keep it clear and watch for people near the bus.",
+      "zh-Hans": "巴士站标志表示巴士在该处上下客。不要堵住站位，并留意巴士附近的行人。",
+      "pages": "21"
+    },
+    "q2965200": {
+      "en": "The end-of-expressway sign marks leaving expressway conditions. Reduce speed as needed and follow the signs and limits of the road you enter.",
+      "zh-Hans": "高速公路终点标志表示将离开高速公路。应按需要减速，并遵守驶入道路的标志及限速。",
+      "pages": "23"
+    },
+    "q2973800": {
+      "en": "The conspicuous chevrons point along a sharp change of direction. Slow before the deviation and follow the direction shown.",
+      "zh-Hans": "醒目的箭形标记指向道路急转的方向。应在转向前减速，并按箭头方向行驶。",
+      "pages": "20"
+    },
+    "q3051000": {
+      "en": "Both arms raised orders traffic approaching from all directions to stop. Follow the officer even if the lights give a different signal.",
+      "zh-Hans": "警员双臂抬起表示各方向来车都要停车。即使交通灯指示不同，也要服从警员。",
+      "pages": "47"
+    },
+    "q3059600": {
+      "en": "In the pictured signal, vehicles from the officer's right, front and behind stop. Determine the sides using the officer's own orientation.",
+      "zh-Hans": "图示手势要求从警员右方、前方及后方驶来的车辆停下；方向以警员自身朝向为准。",
+      "pages": "47"
+    },
+    "q3102400": {
+      "en": "The video uses a rough estimate of one car length per 10 km/h. The supplied handbooks teach a time gap rather than that formula: the English edition recommends at least three seconds normally, and more when conditions are poor.",
+      "zh-Hans": "视频使用每小时 10 公里留约一个车身长度的粗估方法。所给手册教的是按时间保持间隔，并非这一公式；英文版建议正常路况至少三秒，路况差时再加大。",
+      "pages": "61",
+      "status": "context"
+    },
+    "q3119600": {
+      "en": "A typical automatic car has an accelerator and a brake pedal; it does not have a driver-operated clutch pedal.",
+      "zh-Hans": "一般自动挡汽车只有油门和刹车两个踏板，没有驾驶员操作的离合器踏板。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q3128200": {
+      "en": "Use the acceleration lane to match the flow as far as safe, check mirrors and blind spots, and merge into a suitable gap. Give way to traffic already on the expressway.",
+      "zh-Hans": "在加速车道内安全调整到合适车速，查后视镜和盲区，选安全空隙汇入；已在高速公路上的车辆优先。",
+      "pages": "43, 54",
+      "status": "context"
+    },
+    "q3145200": {
+      "en": "Watch vehicles at side roads and those edging out of parking. Ease off early and be ready to stop or yield if they emerge, even when you normally have priority.",
+      "zh-Hans": "留意支路口车辆和正从泊位探出的车辆。应提前松油门，准备停车或让行，即使通常是你优先。",
+      "pages": "52–53, 64"
+    },
+    "q3162400": {
+      "en": "At higher speeds attention tends to narrow toward the road ahead, making side hazards easier to miss. Reduce speed where hazards can enter from the sides and keep scanning.",
+      "zh-Hans": "车速越高，注意力越容易集中在正前方，不易发现两侧危险。侧方可能有危险进入时应减速，并持续观察。",
+      "pages": "68",
+      "status": "context"
+    },
+    "q3171000": {
+      "en": "Adjust your seat so your elbows remain slightly bent when holding the wheel. This gives better control without stretching or locking your arms.",
+      "zh-Hans": "调好座椅，使握方向盘时肘部稍弯，避免手臂伸太直或锁紧，以便更好控制方向。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q3188000": {
+      "en": "The conventional parking brake in the question acts on the rear wheels. Designs vary; use your vehicle manual rather than treating this as a universal mechanical rule.",
+      "zh-Hans": "题中的传统驻车制动作用于后轮。不同车型设计有别，应以车辆手册为准，不能把它当作所有车辆的机械规则。",
+      "pages": "56, 69",
+      "status": "context"
+    },
+    "q3196600": {
+      "en": "A stationary bus can hide pedestrians crossing from its front. Slow down and be ready to stop before passing the bus.",
+      "zh-Hans": "停着的巴士可能遮住从车头过路的行人。经过巴士前要减速并准备停车。",
+      "pages": "62, 64"
+    },
+    "q3231000": {
+      "en": "Stopping distance includes both the distance travelled while reacting and the distance travelled while the brakes bring the vehicle to a stop.",
+      "zh-Hans": "停车距离由反应期间行驶的距离和制动后直到停稳的距离组成。",
+      "pages": "61"
+    },
+    "q3291000": {
+      "en": "Allow a signalling bus room to leave its stop. At a marked mandatory give-way area, comply with the give-way line and yellow box rules.",
+      "zh-Hans": "巴士打灯准备离站时，应给它留出驶出空间。在强制让行区按让行线和黄格标线通行。",
+      "pages": "41, 62"
+    },
+    "q3316600": {
+      "en": "Brakes need maintenance. Low fluid or a pedal sinking to the floor can indicate a serious fault; do not assume that a car which still stops is safe to drive.",
+      "zh-Hans": "制动系统需要保养。制动液过低或踏板踩到底可能表示严重故障；车辆还能刹停不代表可以安全驾驶。",
+      "pages": "70",
+      "status": "context"
+    },
+    "q3325200": {
+      "en": "For a manual upshift, ease off the accelerator and depress the clutch, select the next gear, then re-engage smoothly and resume the throttle.",
+      "zh-Hans": "手动挡升挡时，松开油门并踩下离合器，选好下一挡后平稳接合离合，再适当加油。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q3351000": {
+      "en": "Set a safe speed before the bend. If conditions allow, use gentle throttle to maintain speed through it, then accelerate gradually as the steering straightens and the exit is clear.",
+      "zh-Hans": "过弯前先调到安全车速。条件允许时轻踩油门维持速度，等方向盘回正且出口畅通后再逐渐加速。",
+      "pages": "69",
+      "status": "context"
+    },
+    "q3359400": {
+      "en": "Stay in a stable driving posture and keep both hands available for steering. A normal gear change or control adjustment is not a reason to drive habitually one-handed.",
+      "zh-Hans": "保持稳定坐姿，平时用双手控制方向盘。短暂换挡或操作控制件，并不意味着平常可单手驾驶。",
+      "pages": "70, 72",
+      "status": "context"
+    },
+    "q3385200": {
+      "en": "When reversing into a space, steer toward the intended rear path; the front swings out the other way. Check traffic and pedestrians on both sides as well as behind.",
+      "zh-Hans": "倒车入位时朝车尾预定方向打方向盘，车头会朝相反方向外摆。除后方外，还要观察两侧的车辆及行人。",
+      "pages": "62",
+      "status": "context"
+    },
+    "q3402400": {
+      "en": "Hold the wheel firmly if steering pulls suddenly or a tyre fails. Ease off the accelerator and slow gradually to a safe stop rather than braking abruptly.",
+      "zh-Hans": "转向突然跑偏或爆胎时应握稳方向盘，松油门并逐步减速到安全地点停车，不要猛踩刹车。",
+      "pages": "70",
+      "status": "context"
+    },
+    "q3411000": {
+      "en": "Check tyre condition and pressure before driving and maintain all safety items. Under-inflation affects grip and braking; prevent faults rather than waiting for a breakdown.",
+      "zh-Hans": "出发前检查轮胎状况和胎压，并保养各安全部件。胎压不足会影响抓地和制动，不要等抛锚才处理。",
+      "pages": "70"
+    },
+    "q3462400": {
+      "en": "Be patient and allow an older or slower pedestrian to finish crossing at their own pace. Do not use the horn to hurry them.",
+      "zh-Hans": "应耐心让年长或行动较慢的行人按自己的速度走完，不要鸣笛催促。",
+      "pages": "18, 62"
+    },
+    "q3530800": {
+      "en": "Use the horn briefly to warn of danger, not to express impatience or demand priority. Near a hospital, avoid unnecessary noise.",
+      "zh-Hans": "喇叭用来短促提醒危险，不应用来发泄不耐烦或强求先行。医院附近尤其应避免不必要的鸣笛。",
+      "pages": "64, 69",
+      "status": "context"
+    },
+    "q3548000": {
+      "en": "An oncoming or unsteady cyclist may move unexpectedly. Slow down, give extra clearance and wait or stop rather than attempting a close pass.",
+      "zh-Hans": "迎面驶来或骑得不稳的骑士可能突然偏移。应减速、加大侧向距离，必要时等候或停车，不要贴身通过。",
+      "pages": "62, 64"
+    },
+    "q3565200": {
+      "en": "Check mirrors, signal at least three seconds before the manoeuvre and check the relevant blind spot before moving. Wait if the space is not clear.",
+      "zh-Hans": "先看后视镜，至少提前三秒打灯，移动前再查相关一侧的盲区。空隙不安全就等候。",
+      "pages": "60"
+    },
+    "q3573800": {
+      "en": "Before turning right across oncoming traffic, slow and yield to oncoming vehicles and pedestrians crossing your intended path. Stop if needed.",
+      "zh-Hans": "右转横越对向车流前先减速，让对向车辆和正在横过你预定路线的行人先行，必要时停车。",
+      "pages": "53, 62"
+    },
+    "q3608000": {
+      "en": "A narrow training course may require positioning for clearance. Do not apply the keyed “more to the right” on a public road: the handbook says keep left and avoid swinging out before a left turn.",
+      "zh-Hans": "狭窄训练场地可能需要调整车身留出空间。不要把题中的“偏右”套用于公路；手册要求左转时靠左，避免先向右摆。",
+      "pages": "53",
+      "status": "context"
+    },
+    "q3616600": {
+      "en": "Oil can sharply reduce grip. Avoid the patch if you can do so safely; if unavoidable, slow beforehand and avoid abrupt steering or braking across it.",
+      "zh-Hans": "油污会明显降低抓地力。能够安全避开就绕行；无法避开时应提前减速，通过时避免猛打方向或急刹。",
+      "pages": "66, 68",
+      "status": "context"
+    },
+    "q3642400": {
+      "en": "The keyed answer calls for stopping to check before this right turn. Obey the displayed signal first and yield to conflicting traffic; proceed only when permitted and safe.",
+      "zh-Hans": "此题答案要求在该处右转前停车观察。应先服从现场信号，并让有冲突路线的交通先行；获准且安全后再转。",
+      "pages": "53, 69",
+      "status": "context"
+    },
+    "q3650800": {
+      "en": "The keyed diagram has the two right-turning vehicles passing in front of one another. In real traffic follow the marked turning paths, obey the signals and check for other conflicting traffic.",
+      "zh-Hans": "题图的答案是两辆右转车从彼此前方通过。实际行驶须按标示转弯路线及信号通行，并留意其他冲突车辆。",
+      "pages": "53",
+      "status": "context"
+    },
+    "q3676600": {
+      "en": "For a non-probationary driver without a prior suspension record, the first suspension threshold is 24 points in 24 consecutive months. A driver with a prior suspension has a different threshold.",
+      "zh-Hans": "没有停牌记录的非实习驾驶员，在连续 24 个月内累计达到 24 分会触发首次停牌。有停牌记录者适用不同门槛。",
+      "pages": "5"
+    },
+    "q3788000": {
+      "en": "On a right bend, a safe position toward the left can improve the view and clearance from opposing traffic. Stay within the lane; don't cut across the centre line.",
+      "zh-Hans": "右弯时在安全范围内靠左可改善视线，并与对向车辆拉开距离。保持在本车道内，不要切过中线。",
+      "pages": "50, 68",
+      "status": "context"
+    },
+    "q3796600": {
+      "en": "On a downhill parking slope, apply the parking brake and leave a manual car in reverse gear as an additional safeguard against rolling.",
+      "zh-Hans": "下坡停车要拉好驻车制动，手动挡车挂倒挡，以进一步防止溜车。",
+      "pages": "56"
+    },
+    "q3839400": {
+      "en": "Incorrect tyre pressure changes how tyres grip and respond. It can affect both steering and braking, so check the pressures recommended for your vehicle.",
+      "zh-Hans": "胎压不正确会改变轮胎抓地和响应，影响转向及制动，应按车辆推荐胎压检查。",
+      "pages": "70"
+    },
+    "q3856600": {
+      "en": "Repeated brake applications can make the brake lights flash repeatedly, warning drivers behind. That is an effect of the technique, not a reason to pump ABS brakes in an emergency.",
+      "zh-Hans": "重复踩刹车会使制动灯反复亮起，提醒后车。这是该操作的效果，并不是紧急情况下反复踩放 ABS 刹车的理由。",
+      "pages": "66",
+      "status": "context"
+    },
+    "q3933600": {
+      "en": "After safely pulling over, switch off the overheated engine and let it cool. Do not remove a hot pressurised coolant cap; hot coolant or steam can cause burns.",
+      "zh-Hans": "安全停车后关闭过热的发动机并等待冷却。不要打开仍热且有压力的冷却液盖，热液和蒸汽可能烫伤。",
+      "pages": "70, 72",
+      "status": "context"
+    },
+    "q3942200": {
+      "en": "In a non-injury crash, once it is safe and any necessary details have been recorded, move the vehicles out of traffic if possible. Stop and exchange particulars; do not simply drive off.",
+      "zh-Hans": "无人员受伤的碰撞中，在安全并记录必要情况后，能移动就把车移离车流。仍应停车交换资料，不能直接离开。",
+      "pages": "64",
+      "status": "context"
+    },
+    "q3976600": {
+      "en": "Pedestrians, cyclists and motorcyclists have little crash protection and can be hidden by other vehicles. Look for them before turning, changing lanes or crossing a junction.",
+      "zh-Hans": "行人、骑脚踏车者和骑摩托车者缺少碰撞保护，也容易被其他车辆挡住。转弯、变道或过路口前要特别观察。",
+      "pages": "62, 64"
+    },
+    "q3993600": {
+      "en": "Set the side mirrors for a broad view along the road beside and behind the car; a sliver of the car is a useful reference. Mirrors do not replace a blind-spot check.",
+      "zh-Hans": "调整侧后视镜以尽量看清车侧和车后路面，保留一小部分车身作为参照。仍须转头检查盲区。",
+      "pages": "60, 72",
+      "status": "context"
+    },
+    "q4010800": {
+      "en": "Parked cars hide pedestrians and may have doors opened unexpectedly. Slow down, leave clearance and be ready to stop for anyone stepping out.",
+      "zh-Hans": "停放车辆会挡住行人，车门也可能突然打开。应减速、留足间距，并准备为突然走出的人停车。",
+      "pages": "62, 64"
+    },
+    "q4019400": {
+      "en": "Check every side road as you approach, even when you have priority. Ease off if someone may emerge and be ready to stop.",
+      "zh-Hans": "即使拥有优先权，驶近每条支路时仍要观察。若有车辆可能驶出，应提前松油门并准备停车。",
+      "pages": "53, 64"
+    },
+    "q4062200": {
+      "en": "A U-turn at an intersection is not allowed unless a U-turn sign permits it. Even where permitted, signal and yield before turning.",
+      "zh-Hans": "除非路口有允许掉头标志，否则不得掉头。即使获准，也要打灯并让行后再转。",
+      "pages": "56"
+    },
+    "q4079400": {
+      "en": "If an oncoming vehicle encroaches across the centre line, reduce speed early and move left as far as safely possible. Do not insist on priority or make a violent steering input.",
+      "zh-Hans": "对向车越过中线时，应提前减速，在安全范围内靠左避让。不要坚持优先权，也不要猛打方向盘。",
+      "pages": "50, 68"
+    },
+    "q4096600": {
+      "en": "Mirrors do not cover the blind areas at the side; check directly before moving sideways.",
+      "zh-Hans": "后视镜照不到车身侧方的全部盲区，横向移动之前要直接查看。",
+      "pages": "60"
+    },
+    "q4113600": {
+      "en": "The new-driver probation period runs for one year from grant of the licence. Accumulating 13 or more points during that year results in revocation.",
+      "zh-Hans": "新驾驶员从领证日起实习一年。在这一年累计 13 分或以上，驾驶执照将被吊销。",
+      "pages": "5"
+    },
+    "q4130800": {
+      "en": "Tailgating leaves too little time to react if the vehicle ahead brakes. An adequate time gap includes room for both reaction and braking.",
+      "zh-Hans": "跟车太近时，前车一刹车就可能来不及反应。安全间隔必须给反应和制动都留出空间。",
+      "pages": "60, 61"
+    },
+    "q4148000": {
+      "en": "For a steep descent choose a suitable lower gear or range to use engine braking. This reduces continuous brake use and the risk of overheated brakes; consult the vehicle manual for its controls.",
+      "zh-Hans": "走陡下坡应选适当低挡或低速范围，利用发动机制动。这可减少持续踩刹车及制动过热的风险；具体控制方式看车辆手册。",
+      "pages": "56, 72",
+      "status": "context"
+    },
+    "q4208000": {
+      "en": "Depressing the clutch separates the engine from the driven wheels. The connection is restored as the clutch re-engages.",
+      "zh-Hans": "踩下离合器会断开发动机与驱动轮之间的动力连接；离合重新接合后才恢复传动。",
+      "pages": "72",
+      "status": "context"
+    },
+    "q4242200": {
+      "en": "If a rider starts to pass on your left, do not speed up, squeeze the gap or move across the rider. Slow gently if needed to reduce the immediate risk.",
+      "zh-Hans": "骑士已从你左侧超越时，不要加速、挤压空隙或横切其路线。必要时轻缓减速，降低眼前危险。",
+      "pages": "50, 64"
+    },
+    "q4259400": {
+      "en": "Before reversing, look directly behind for people and obstructions, including in the blind area. Mirrors help but do not replace looking back.",
+      "zh-Hans": "倒车前应直接查看后方及盲区有无行人和障碍物。后视镜能辅助观察，但不能代替转头查看。",
+      "pages": "62"
+    }
+  }
+}

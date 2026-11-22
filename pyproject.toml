@@ -1,0 +1,17 @@
+[project]
+name = "btt"
+version = "0.1.0"
+description = "Extract a BTT quiz deck from a screen recording"
+readme = "README.md"
+authors = [
+    { name = "Sped0n", email = "hi@sped0n.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["pillow>=11"]
+
+[project.scripts]
+btt = "btt:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"

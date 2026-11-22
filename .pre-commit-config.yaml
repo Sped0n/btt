@@ -1,0 +1,27 @@
+repos:
+  - repo: local
+    hooks:
+      - id: actionlint
+        name: Check GitHub Actions
+        entry: actionlint
+        language: system
+        files: '^\.github/workflows/[^/]+\.ya?ml$'
+        pass_filenames: false
+
+      - id: nix-format
+        name: Format Nix
+        entry: nixfmt
+        language: system
+        files: '\.nix$'
+
+      - id: python-fix
+        name: Lint Python and organize imports
+        entry: ruff check --fix --extend-select I --force-exclude --no-cache
+        language: system
+        files: '\.py$'
+
+      - id: python-format
+        name: Format Python
+        entry: ruff format --force-exclude --no-cache
+        language: system
+        files: '\.py$'

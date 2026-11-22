@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BTT practice</title>
+<style>
+  body { max-width: 46rem; margin: 1.5rem auto; padding: 0 1rem; font: 1rem/1.5 system-ui; }
+  button { font: inherit; min-height: 44px; }
+  img, video { display: block; max-width: 100%; height: auto; }
+  #sessions { display: flex; flex-wrap: wrap; gap: .5rem; }
+  #choices { display: grid; gap: .5rem; margin: 1rem 0; }
+  .choice { display: flex; gap: .5rem; }
+  .choice-answer { flex: 1; min-width: 0; text-align: left; padding: .5rem; overflow-wrap: anywhere; }
+  .choice-answer:disabled { color: inherit; }
+  .choice-image { flex: 0 1 7rem; max-width: 40%; }
+  .choice.correct { outline: 2px solid seagreen; }
+  .choice.wrong { outline: 2px solid firebrick; }
+  .image-zoom { min-width: 44px; padding: .25rem; cursor: zoom-in; }
+  #feedback:empty { display: none; }
+  #image-preview { box-sizing: border-box; width: min(42rem, calc(100% - 2rem)); }
+  #image-preview img { width: 100%; max-height: 72vh; object-fit: contain; margin-bottom: .5rem; }
+</style>
+<h1>BTT practice</h1>
+<nav id="sessions" aria-label="Practice sessions">
+  <button id="all" disabled>Practice all</button>
+  <button id="missed" disabled>Review missed</button>
+  <button id="review" hidden>Review flagged</button>
+</nav>
+<p id="status" role="status" tabindex="-1">Loading deck…</p>
+<main id="card" hidden>
+  <h2 id="prompt" tabindex="-1"></h2>
+  <div id="visual"></div>
+  <div id="choices"></div>
+  <p id="feedback" role="status" tabindex="-1"></p>
+  <div id="explanation" hidden>
+    <p id="reason-kind" hidden><strong id="reason-kind-en"></strong><br><strong id="reason-kind-zh" lang="zh-Hans"></strong></p>
+    <p id="reason-en"></p>
+    <p id="reason-zh" lang="zh-Hans"></p>
+    <p><small>Official handbooks · printed pages / <span lang="zh-Hans">官方手册 · 印刷页码</span> <span id="references"></span></small></p>
+  </div>
+  <button id="reveal" hidden>Show answer</button>
+  <button id="next" hidden>Next</button>
+  <details id="source"><summary>Source</summary><p id="timestamp"></p><div id="evidence"></div></details>
+</main>
+<dialog id="image-preview" aria-label="Image preview">
+  <img alt="">
+  <form method="dialog"><button autofocus>Close image</button></form>
+</dialog>
+<p><small>Keyboard: A, B, C or 1, 2, 3 to answer. Space shows the answer. Enter goes to the next question.</small></p>
+<script type="module">
+const el = id => document.getElementById(id);
+const letters = 'ABC';
+let ready = [], flagged = [], cardsById, missedKey, sessionKey, explanations;
+let missed = new Set(), session;
+const current = () => cardsById.get(session.ids[session.index]);
+
+function readSaved(key) {
+  try { return JSON.parse(localStorage.getItem(key)); } catch { return null; }
+}
+
+function save(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* Storage is optional. */ }
+}
+
+function restoreSession() {
+  const saved = readSaved(sessionKey);
+  if (saved?.kind !== 'all' && saved?.kind !== 'missed') return null;
+  const readyIds = new Set(ready.map(card => card.id));
+  const { ids, index, result } = saved;
+  if (!Array.isArray(ids) || !ids.length || new Set(ids).size !== ids.length || !ids.every(id => readyIds.has(id))) return null;
+  if (!Number.isInteger(index) || index < 0 || index > ids.length) return null;
+  if (result !== null) {
+    if (index === ids.length) return null;
+    if (result !== 'shown' && (!Number.isInteger(result) || !letters[result])) return null;
+  }
+  return saved;
+}
+
+function shuffled(cards) {
+  const result = [...cards];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function start(cards, kind) {
+  session = { ids: cards.map(card => card.id), index: 0, result: null, kind };
+  if (kind !== 'flagged') save(sessionKey, session);
+  render();
+}
+
+function displayMissedCount() {
+  const count = ready.filter(card => missed.has(card.id)).length;
+  el('missed').textContent = `Review missed (${count})`;
+  el('missed').disabled = count === 0;
+}
+
+function picture(src, alt) {
+  const element = document.createElement('img');
+  element.src = src;
+  element.alt = alt;
+  return element;
+}
+
+function zoomablePicture(src, alt) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'image-zoom';
+  button.setAttribute('aria-label', `Enlarge ${alt.toLowerCase()}`);
+  button.title = 'Enlarge image';
+  button.append(picture(src, alt));
+  button.onclick = () => {
+    const dialog = el('image-preview');
+    const image = dialog.querySelector('img');
+    image.src = src;
+    image.alt = alt;
+    dialog.showModal();
+  };
+  return button;
+}
+
+function render() {
+  const card = current();
+  const { kind, index, ids } = session;
+  const label = { all: 'Card', missed: 'Missed card', flagged: 'Flagged card' }[kind];
+  displayMissedCount();
+  el('status').textContent = card
+    ? `${label} ${index + 1} of ${ids.length}`
+    : ids.length ? 'Session complete.' : 'No cards in this session.';
+  el('card').hidden = !card;
+  if (!card) {
+    el('status').focus();
+    return;
+  }
+  el('prompt').textContent = card.prompt || 'Unreadable question';
+  el('visual').replaceChildren();
+  if (card.clip) {
+    const clip = document.createElement('video');
+    clip.src = card.clip;
+    clip.poster = card.image || '';
+    clip.controls = true;
+    clip.playsInline = true;
+    clip.preload = 'none';
+    clip.setAttribute('aria-label', 'Question clip');
+    el('visual').append(clip);
+  } else if (card.image) {
+    el('visual').append(zoomablePicture(card.image, 'Question illustration'));
+  }
+  const seconds = Math.floor(card.time);
+  const time = `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
+  el('source').open = kind === 'flagged';
+  el('timestamp').textContent = `Video ${time}${card.number ? ` · question ${card.number} of ${card.total}` : ''}`;
+  el('evidence').replaceChildren();
+  if (kind === 'flagged' && card.evidence) el('evidence').append(picture(card.evidence, 'Source frame with answer marker'));
+  renderChoices(card);
+  displayAnswer();
+  el('prompt').focus();
+}
+
+function displayExplanation(card, graded) {
+  const entry = explanations?.rules[explanations.cards[card.id]];
+  el('explanation').hidden = !entry || !graded;
+  if (el('explanation').hidden) return;
+
+  el('reason-en').textContent = entry.en;
+  el('reason-zh').textContent = entry['zh-Hans'];
+  el('reason-kind').hidden = !entry.status;
+  el('reason-kind-en').textContent = entry.status === 'conflict'
+    ? 'The recording differs from the handbook guidance.'
+    : 'Related handbook guidance; not a direct verification of the keyed answer.';
+  el('reason-kind-zh').textContent = entry.status === 'conflict'
+    ? '视频答案与手册有出入。'
+    : '手册提供相关指引，但未直接验证此题答案。';
+  el('references').textContent = entry.pages;
+}
+
+function renderChoices(card) {
+  el('choices').replaceChildren();
+  card.choices.forEach((choice, index) => {
+    const row = document.createElement('div');
+    row.className = 'choice';
+    const answer = document.createElement('button');
+    answer.type = 'button';
+    answer.className = 'choice-answer';
+    const letter = letters[index];
+    answer.textContent = choice.text ? `${letter}. ${choice.text}` : `Choose ${letter}`;
+    answer.onclick = () => grade(index);
+    row.append(answer);
+    if (choice.image) {
+      const zoom = zoomablePicture(choice.image, `Option ${letter} illustration`);
+      zoom.classList.add('choice-image');
+      row.append(zoom);
+    }
+    el('choices').append(row);
+  });
+}
+
+function displayAnswer() {
+  const card = current();
+  const { result, kind } = session;
+  const reviewing = kind === 'flagged';
+  const graded = reviewing || result !== null;
+  for (const [index, row] of Array.from(el('choices').children).entries()) {
+    row.firstElementChild.disabled = graded;
+    row.classList.toggle('correct', graded && index === card.answer);
+    row.classList.toggle('wrong', index === result && index !== card.answer);
+  }
+
+  let feedback = '';
+  if (reviewing) feedback = card.issues.join(' · ') + (card.answer === null ? '' : ` · Detected answer: ${letters[card.answer]}`);
+  else if (graded) {
+    const summary = result === 'shown' ? 'Answer shown.' : result === card.answer ? 'Correct.' : 'Incorrect.';
+    feedback = `${summary} Answer: ${letters[card.answer]}`;
+  }
+  el('feedback').textContent = feedback;
+  displayExplanation(card, graded);
+  el('reveal').hidden = graded;
+  el('next').hidden = !graded;
+}
+
+function grade(result) {
+  const card = current();
+  if (!card || session.kind === 'flagged' || session.result !== null) return;
+  session.result = result;
+  if (result === card.answer) missed.delete(card.id);
+  else missed.add(card.id);
+  save(missedKey, [...missed]);
+  save(sessionKey, session);
+  displayMissedCount();
+  displayAnswer();
+  el('feedback').focus({ preventScroll: true });
+  el('feedback').scrollIntoView({ block: 'nearest' });
+}
+
+function advance() {
+  if (el('next').hidden || !current()) return;
+  session.index++;
+  session.result = null;
+  if (session.kind !== 'flagged') save(sessionKey, session);
+  render();
+}
+
+el('all').onclick = () => start(shuffled(ready), 'all');
+el('missed').onclick = () => start(shuffled(ready.filter(card => missed.has(card.id))), 'missed');
+el('review').onclick = () => start(flagged, 'flagged');
+el('reveal').onclick = () => grade('shown');
+el('next').onclick = advance;
+document.addEventListener('keydown', event => {
+  if (!session || !current() || el('image-preview').open || event.repeat || event.ctrlKey || event.metaKey || event.altKey || event.target.closest('video')) return;
+  const key = event.key.toLowerCase();
+  const choice = letters.indexOf(key.toUpperCase());
+  if (!el('reveal').hidden && (choice >= 0 || /^[123]$/.test(key))) {
+    event.preventDefault();
+    grade(choice >= 0 ? choice : Number(key) - 1);
+  } else if (!event.target.closest('button, summary')) {
+    if (key === ' ' && !el('reveal').hidden) {
+      event.preventDefault();
+      grade('shown');
+    } else if (key === 'enter' && !el('next').hidden) {
+      event.preventDefault();
+      advance();
+    }
+  }
+});
+
+const explanationFile = fetch('explanations.json')
+  .then(response => response.ok ? response.json() : null)
+  .catch(() => null);
+try {
+  const response = await fetch('deck.json');
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const deck = await response.json();
+  const notes = await explanationFile;
+  if (notes?.source === deck.source) explanations = notes;
+  cardsById = new Map(deck.cards.map(card => [card.id, card]));
+  ready = deck.cards.filter(card => !card.issues.length && card.answer !== null);
+  flagged = deck.cards.filter(card => card.issues.length || card.answer === null);
+  missedKey = `btt-missed:${deck.source}`;
+  sessionKey = `btt-session:${deck.source}`;
+  const savedMissed = readSaved(missedKey);
+  if (Array.isArray(savedMissed)) missed = new Set(savedMissed);
+  el('all').disabled = !ready.length;
+  el('review').hidden = !flagged.length;
+  if (flagged.length) el('review').textContent = `Review flagged (${flagged.length})`;
+  session = restoreSession();
+  if (session) render();
+  else if (!ready.length && flagged.length) start(flagged, 'flagged');
+  else start(shuffled(ready), 'all');
+} catch (error) {
+  el('status').textContent = `Could not load the deck: ${error.message}. Serve this directory over HTTP.`;
+}
+</script>
+</html>
