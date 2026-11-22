@@ -1,6 +1,6 @@
 # BTT practice
 
-Singapore Basic Theory Test practice with 499 questions. Study at <https://sped0n.github.io/btt/>.
+Singapore Basic Theory Test practice with 418 questions. Study at <https://sped0n.github.io/btt/>.
 
 ## Local quiz
 
@@ -21,9 +21,13 @@ extractor, the recording, or the handbooks.
 - Tap an image to enlarge it. English and Simplified Chinese explanations appear
   after you answer or reveal.
 
-The quiz grades against the recording's answer key. `quiz/explanations.json`
-cites printed pages in `bt-eng-2126.pdf` and `bt-chi-101024.pdf`. Notes flag
-conflicts between the sources and distinguish related guidance from direct support.
+The deck uses questions from the recording. It removes duplicates and corrects
+outdated answers using the handbooks. For following distance, the quiz uses the
+three-second rule from the newer English edition. **Review flagged** contains
+questions the quiz does not grade.
+
+`quiz/explanations.json` cites printed pages in `bt-eng-2126.pdf` and
+`bt-chi-101024.pdf`. Notes distinguish related guidance from direct support.
 
 ## Checks and deployment
 
@@ -64,6 +68,7 @@ Use 0 for A, 1 for B, and 2 for C. Clear `issues` after review. Unflagged cards
 can still contain OCR errors.
 
 Replace `quiz/deck.json` and `quiz/media/` together. Keep `quiz/index.html`.
-Match `quiz/explanations.json` to the new deck's `source` and card IDs. Check the
-explanations against the new answers before committing. Do not commit the
-recording or intermediate files.
+Match `quiz/explanations.json` to the new deck's `source` and card IDs. Give
+questions new IDs if their wording or answer key changes, so saved answers do
+not carry over. Check the explanations before committing. Keep the recording
+and intermediate files out of Git.

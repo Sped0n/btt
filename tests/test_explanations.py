@@ -1,11 +1,42 @@
 import json
+import re
 from pathlib import Path
 from unittest import TestCase
 
 QUIZ = Path(__file__).resolve().parents[1] / "quiz"
 
 
+def normalized(text: str) -> str:
+    return " ".join(re.findall(r"\w+", text.casefold()))
+
+
 class PublishedQuizTests(TestCase):
+    def test_text_only_questions_do_not_repeat(self):
+        deck = json.loads((QUIZ / "deck.json").read_text(encoding="utf-8"))
+        seen = {}
+        for card in deck["cards"]:
+            if card["issues"] or card["image"] or card["clip"]:
+                continue
+            if any(choice.get("image") for choice in card["choices"]):
+                continue
+            choices = [normalized(choice["text"]) for choice in card["choices"]]
+            key = (
+                normalized(card["prompt"]),
+                tuple(sorted(choices)),
+                choices[card["answer"]],
+            )
+            self.assertNotIn(key, seen, f"{card['id']} duplicates {seen.get(key)}")
+            seen[key] = card["id"]
+
+    def test_flagged_questions_have_no_gradeable_answer(self):
+        deck = json.loads((QUIZ / "deck.json").read_text(encoding="utf-8"))
+        for card in deck["cards"]:
+            with self.subTest(card=card["id"]):
+                if card["issues"]:
+                    self.assertIsNone(card["answer"])
+                else:
+                    self.assertIn(card["answer"], range(len(card["choices"])))
+
     def test_every_media_reference_resolves_inside_the_published_site(self):
         deck = json.loads((QUIZ / "deck.json").read_text(encoding="utf-8"))
         for card in deck["cards"]:

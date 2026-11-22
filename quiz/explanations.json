@@ -9,8 +9,6 @@
     "q0043000": "q0043000",
     "q0051400": "q0051400",
     "q0060000": "q0060000",
-    "q0068600": "q0068600",
-    "q0077200": "q0077200",
     "q0085800": "q0085800",
     "q0094400": "q0085800",
     "q0102800": "q0102800",
@@ -18,7 +16,6 @@
     "q0120000": "q0120000",
     "q0128600": "q0128600",
     "q0137200": "q0137200",
-    "q0145800": "q0145800",
     "q0154400": "q0154400",
     "q0162800": "q0162800",
     "q0171400": "q0171400",
@@ -77,20 +74,14 @@
     "q0625600": "q0625600",
     "q0634200": "q0634200",
     "q0642800": "q0625600",
-    "q0651400": "q0017200",
     "q0660000": "q0043000",
     "q0668600": "q0668600",
     "q0677000": "q0060000",
-    "q0685600": "q0068600",
-    "q0694200": "q0085800",
-    "q0702800": "q0085800",
     "q0711400": "q0711400",
     "q0720000": "q0720000",
     "q0728600": "q0728600",
     "q0737000": "q0737000",
     "q0745600": "q0745600",
-    "q0754200": "q0754200",
-    "q0762800": "q0762800",
     "q0771400": "q0771400",
     "q0780000": "q0780000",
     "q0788400": "q0788400",
@@ -132,16 +123,12 @@
     "q1097000": "q0043000",
     "q1105600": "q0051400",
     "q1114200": "q0060000",
-    "q1122800": "q0068600",
-    "q1131200": "q1131200",
-    "q1139800": "q1139800",
     "q1148400": "q0711400",
     "q1157000": "q0137200",
     "q1165600": "q0128600",
     "q1174200": "q0728600",
     "q1182800": "q0128600",
     "q1191200": "q1191200",
-    "q1199800": "q0754200",
     "q1208400": "q1208400",
     "q1217000": "q1217000",
     "q1225600": "q1225600",
@@ -161,7 +148,6 @@
     "q1345600": "q1345600",
     "q1354200": "q0917000",
     "q1362600": "q0514200",
-    "q1371200": "q0317200",
     "q1379800": "q0951400",
     "q1388400": "q0334200",
     "q1397000": "q0531400",
@@ -176,14 +162,9 @@
     "q1474000": "q1474000",
     "q1482600": "q0617000",
     "q1491200": "q1491200",
-    "q1499800": "q0634200",
     "q1508400": "q0017200",
     "q1517000": "q1517000",
-    "q1525600": "q1011400",
     "q1534000": "q0060000",
-    "q1542600": "q0068600",
-    "q1551200": "q0068600",
-    "q1559800": "q0085800",
     "q1568400": "q1568400",
     "q1577000": "q0102800",
     "q1585600": "q0745600",
@@ -231,15 +212,11 @@
     "q1945400": "q0043000",
     "q1954000": "q0668600",
     "q1962600": "q0060000",
-    "q1971200": "q0068600",
-    "q1979800": "q0068600",
-    "q1988200": "q0085800",
     "q1996800": "q0102800",
     "q2005400": "q0600000",
     "q2014000": "q1191200",
     "q2022600": "q0128600",
     "q2031200": "q0128600",
-    "q2039800": "q0137200",
     "q2048200": "q2048200",
     "q2056800": "q2056800",
     "q2065400": "q0454200",
@@ -249,15 +226,12 @@
     "q2099800": "q2099800",
     "q2108200": "q2108200",
     "q2116800": "q0617000",
-    "q2125400": "q2125400",
     "q2134000": "q1842600",
     "q2142600": "q2142600",
     "q2151200": "q2151200",
     "q2159600": "q0454200",
     "q2168200": "q2168200",
     "q2176800": "q0617000",
-    "q2185400": "q0068600",
-    "q2194000": "q0085800",
     "q2202600": "q0085800",
     "q2211200": "q0711400",
     "q2219600": "q0137200",
@@ -266,7 +240,6 @@
     "q2245400": "q2245400",
     "q2254000": "q2254000",
     "q2262600": "q2262600",
-    "q2271200": "q0762800",
     "q2279600": "q2279600",
     "q2288200": "q2288200",
     "q2296800": "q2296800",
@@ -275,7 +248,6 @@
     "q2322600": "q2322600",
     "q2331000": "q2331000",
     "q2339600": "q2339600",
-    "q2348200": "q0574200",
     "q2356800": "q2356800",
     "q2365400": "q0017200",
     "q2374000": "q0017200",
@@ -285,11 +257,7 @@
     "q2408200": "q1011400",
     "q2416800": "q0060000",
     "q2425400": "q2425400",
-    "q2434000": "q0634200",
-    "q2442600": "q0068600",
     "q2451000": "q2451000",
-    "q2459600": "q2451000",
-    "q2468200": "q0085800",
     "q2476800": "q2476800",
     "q2485400": "q0711400",
     "q2494000": "q2494000",
@@ -299,26 +267,19 @@
     "q2528200": "q2528200",
     "q2536800": "q2528200",
     "q2545400": "q2545400",
-    "q2554000": "q2545400",
     "q2562400": "q2562400",
-    "q2571000": "q2571000",
     "q2579600": "q2579600",
-    "q2588200": "q2588200",
     "q2596800": "q2322600",
     "q2605400": "q2605400",
     "q2614000": "q2614000",
     "q2622400": "q2622400",
     "q2631000": "q2528200",
-    "q2639600": "q0737000",
-    "q2648200": "q1045600",
     "q2656800": "q1037000",
     "q2665400": "q2665400",
     "q2673800": "q1319800",
     "q2682400": "q2682400",
-    "q2691000": "q2254000",
     "q2699600": "q2699600",
     "q2708200": "q2708200",
-    "q2716800": "q2125400",
     "q2725400": "q2725400",
     "q2733800": "q2733800",
     "q2742400": "q2742400",
@@ -329,15 +290,11 @@
     "q2785400": "q2785400",
     "q2793800": "q2793800",
     "q2802400": "q2802400",
-    "q2811000": "q2811000",
     "q2819600": "q2082600",
     "q2828200": "q1688400",
     "q2836800": "q2836800",
     "q2845200": "q0342800",
     "q2853800": "q1825400",
-    "q2862400": "q2862400",
-    "q2871000": "q2262600",
-    "q2879600": "q0762800",
     "q2888200": "q2888200",
     "q2896800": "q2896800",
     "q2905200": "q2905200",
@@ -359,12 +316,8 @@
     "q3042400": "q0308600",
     "q3051000": "q3051000",
     "q3059600": "q3059600",
-    "q3068200": "q0068600",
     "q3076600": "q2451000",
-    "q3085200": "q2451000",
     "q3093800": "q0085800",
-    "q3102400": "q3102400",
-    "q3111000": "q0711400",
     "q3119600": "q3119600",
     "q3128200": "q3128200",
     "q3136600": "q2682400",
@@ -373,18 +326,11 @@
     "q3162400": "q3162400",
     "q3171000": "q3171000",
     "q3179600": "q2699600",
-    "q3188000": "q3188000",
     "q3196600": "q3196600",
     "q3205200": "q2836800",
-    "q3213800": "q0017200",
     "q3222400": "q2614000",
     "q3231000": "q3231000",
-    "q3239600": "q2125400",
-    "q3248000": "q2125400",
-    "q3256600": "q0128600",
     "q3265200": "q1319800",
-    "q3273800": "q0317200",
-    "q3282400": "q0317200",
     "q3291000": "q3291000",
     "q3299600": "q2682400",
     "q3308000": "q1002800",
@@ -395,24 +341,18 @@
     "q3351000": "q3351000",
     "q3359400": "q3359400",
     "q3368000": "q2562400",
-    "q3376600": "q2296800",
     "q3385200": "q3385200",
-    "q3393800": "q1028400",
     "q3402400": "q3402400",
     "q3411000": "q3411000",
     "q3419400": "q2614000",
     "q3428000": "q2622400",
     "q3436600": "q2528200",
-    "q3445200": "q2245400",
-    "q3453800": "q0728600",
     "q3462400": "q3462400",
-    "q3471000": "q0308600",
     "q3479400": "q1011400",
     "q3488000": "q0043000",
     "q3496600": "q0745600",
     "q3505200": "q3411000",
     "q3513800": "q3316600",
-    "q3522400": "q2125400",
     "q3530800": "q3530800",
     "q3539400": "q2056800",
     "q3548000": "q3548000",
@@ -422,48 +362,30 @@
     "q3582400": "q3316600",
     "q3590800": "q2356800",
     "q3599400": "q2356800",
-    "q3608000": "q3608000",
     "q3616600": "q3616600",
-    "q3625200": "q2699600",
     "q3633800": "q1619800",
     "q3642400": "q3642400",
     "q3650800": "q3650800",
-    "q3659400": "q0625600",
-    "q3668000": "q0068600",
     "q3676600": "q3676600",
     "q3685200": "q3676600",
-    "q3693800": "q0085800",
     "q3702200": "q1868400",
-    "q3710800": "q0711400",
     "q3719400": "q3351000",
-    "q3728000": "q0137200",
-    "q3736600": "q0137200",
     "q3745200": "q2519600",
     "q3753800": "q2519600",
-    "q3762200": "q2545400",
     "q3770800": "q2562400",
     "q3779400": "q3351000",
     "q3788000": "q3788000",
     "q3796600": "q3796600",
-    "q3805200": "q0548600",
     "q3813800": "q3385200",
     "q3822200": "q3385200",
     "q3830800": "q3411000",
     "q3839400": "q3839400",
     "q3848000": "q2614000",
     "q3856600": "q3856600",
-    "q3865200": "q2125400",
-    "q3873600": "q0737000",
-    "q3882200": "q0120000",
     "q3890800": "q1868400",
-    "q3899400": "q0317200",
-    "q3908000": "q1011400",
     "q3916600": "q0043000",
-    "q3925200": "q0137200",
     "q3933600": "q3933600",
     "q3942200": "q3942200",
-    "q3950800": "q2125400",
-    "q3959400": "q0617000",
     "q3968000": "q2733800",
     "q3976600": "q3976600",
     "q3985200": "q3548000",
@@ -471,35 +393,39 @@
     "q4002200": "q3565200",
     "q4010800": "q4010800",
     "q4019400": "q4019400",
-    "q4028000": "q3145200",
     "q4036600": "q3402400",
     "q4045000": "q3359400",
-    "q4053600": "q1911200",
     "q4062200": "q4062200",
     "q4070800": "q3145200",
     "q4079400": "q4079400",
     "q4088000": "q1491200",
-    "q4096600": "q4096600",
-    "q4105000": "q0068600",
     "q4113600": "q4113600",
-    "q4122200": "q0085800",
     "q4130800": "q4130800",
-    "q4139400": "q1568400",
     "q4148000": "q4148000",
     "q4156600": "q3128200",
     "q4165000": "q3128200",
-    "q4173600": "q0745600",
     "q4182200": "q4148000",
     "q4190800": "q2519600",
     "q4199400": "q3325200",
     "q4208000": "q4208000",
-    "q4216400": "q3351000",
     "q4225000": "q4148000",
     "q4233600": "q2519600",
-    "q4242200": "q4242200",
     "q4250800": "q2579600",
     "q4259400": "q4259400",
-    "q4268000": "q2605400"
+    "q4268000": "q2605400",
+    "q0068600-r2": "q0068600-r2",
+    "q0685600-r2": "q0685600-r2",
+    "q1122800-r2": "q1122800-r2",
+    "q0077200-r2": "q0077200-r2",
+    "q0762800-r2": "q0762800-r2",
+    "q2271200-r2": "q2271200-r2",
+    "q0145800-r2": "q0145800-r2",
+    "q0754200-r2": "q0754200-r2",
+    "q1131200-r2": "q1131200-r2",
+    "q2811000-r2": "q2811000-r2",
+    "q2862400-r2": "q2862400-r2",
+    "q3608000-r2": "q3608000-r2",
+    "q2554000-r2": "q2554000-r2"
   },
   "rules": {
     "q0000000": {
@@ -534,18 +460,6 @@
       "zh-Hans": "后视镜无法覆盖车身两侧的全部区域。变道、转弯或掉头前，向相关一侧短暂转头查看盲区。",
       "pages": "60"
     },
-    "q0068600": {
-      "en": "The video uses the older two-second check for following distance, which scales with speed. The supplied Chinese edition also says two seconds; the supplied English edition now recommends at least three seconds in normal conditions. Allow more in poor conditions.",
-      "zh-Hans": "视频使用较旧的两秒跟车判断法，车速越快，两秒行驶的距离越长。所给中文版仍写两秒；所给英文版在正常条件下已改为至少三秒。路况不佳时应加大间隔。",
-      "pages": "61",
-      "status": "conflict"
-    },
-    "q0077200": {
-      "en": "Wet roads lengthen braking distance, so allow extra time. The keyed answer uses the older two-second baseline; the supplied English edition recommends at least three seconds even in normal conditions.",
-      "zh-Hans": "湿路会延长制动距离，应加大跟车时间。视频答案以较旧的两秒为基准；所给英文版即使在正常路况下也建议至少三秒。",
-      "pages": "61",
-      "status": "conflict"
-    },
     "q0085800": {
       "en": "When a responding emergency vehicle approaches, yield promptly: signal and pull safely toward the nearest edge, slowing or stopping if necessary. Don't block a junction or brake suddenly in front of it.",
       "zh-Hans": "遇到执行紧急任务的车辆，应尽快让行：打灯并安全靠向最近一侧，必要时减速停车。不要堵住路口或在其前方急刹。",
@@ -575,12 +489,6 @@
       "en": "Keep left in normal driving. Use the right-hand lane to overtake when safe and return left when clear; keep any applicable lane restrictions in mind.",
       "zh-Hans": "正常行驶靠左。安全时可用右侧车道超车，完成后在安全空隙内靠回左侧，并遵守适用的车道限制。",
       "pages": "50, 54"
-    },
-    "q0145800": {
-      "en": "Saturday restrictions apply to full-day bus lanes: 7:30 a.m. to 11 p.m., Monday through Saturday except public holidays. The keyed 7:30–9:30 interval is only part of those hours, not the entire Saturday period.",
-      "zh-Hans": "周六实行限制的是全日制巴士车道：周一至周六早上 7:30 至晚上 11:00，公共假日除外。答案中的 7:30 至 9:30 仅是其中一段，并非周六完整时段。",
-      "pages": "40",
-      "status": "context"
     },
     "q0154400": {
       "en": "A correctly worn seat belt restrains the occupant in a crash and reduces serious injury. Drivers and passengers should buckle up and use the appropriate restraint.",
@@ -890,18 +798,6 @@
       "zh-Hans": "原车道受阻时可以暂时向右绕行。先查后视镜和盲区并打灯，确认安全后通过，再安全靠回左侧。",
       "pages": "50"
     },
-    "q0754200": {
-      "en": "Do not learn 11:30 a.m.–2 p.m. as the current Saturday rule. Normal bus-lane hours are Monday–Friday; full-day bus lanes operate Monday–Saturday, 7:30 a.m.–11 p.m., except public holidays.",
-      "zh-Hans": "不要把上午 11:30 至下午 2:00 记作现行周六规则。普通巴士车道只在周一至周五限行；全日制巴士车道在周一至周六早上 7:30 至晚上 11:00 限行，公共假日除外。",
-      "pages": "40",
-      "status": "conflict"
-    },
-    "q0762800": {
-      "en": "Do not rely on the video's age or 1.5 m cutoff. The handbooks use a height threshold of 1.35 m for the appropriate child restraint, booster or approved restraint arrangement, not a blanket exemption from buckling up.",
-      "zh-Hans": "不要按视频中的年龄或 1.5 米界限判断。手册以 1.35 米身高为门槛，要求使用合适的儿童约束装置、增高座垫或获准的约束方式，并非免系安全带。",
-      "pages": "57",
-      "status": "conflict"
-    },
     "q0771400": {
       "en": "The blue circle makes the instruction mandatory. The bent right arrow shown means you must turn right ahead.",
       "zh-Hans": "蓝色圆牌表示强制指示。图中的弯右箭头表示前方必须右转。",
@@ -984,10 +880,9 @@
       "pages": "37"
     },
     "q0908400": {
-      "en": "The keyed answer does not match either handbook. The no-parking rule on both sides is given for double continuous white centre lines, not a single continuous white line. Check for separate kerb markings or signs.",
-      "zh-Hans": "视频答案与两本手册都不符。两侧均不准泊车适用于双白实线，不是单条连续白实线。另须看有无路缘标线或标志。",
-      "pages": "37",
-      "status": "conflict"
+      "en": "Do not park on either side of a two-way road marked with a single continuous white centre line. A single white line may be crossed only if you can see that the road ahead is clear and it is safe. Never cross double continuous white centre lines.",
+      "zh-Hans": "双向道路的中央划有单条白实线时，两侧都不得泊车。看清前路畅通并确认安全后才可越过单白线。双白实线不得跨越。",
+      "pages": "37"
     },
     "q0917000": {
       "en": "Steady amber means stop before the line unless you are already too close to stop safely. Slow down rather than speeding up to clear it.",
@@ -1011,8 +906,8 @@
       "pages": "44"
     },
     "q0951400": {
-      "en": "The key is the handbook's front-and-back stop rule: approach from the front or rear and stop; approach from either side and proceed only if safe. The still frame does not clearly show the arm position, so use the handbook illustration to learn the actual gesture.",
-      "zh-Hans": "题目考的是手册的前后方停车手势：从警员前后方接近要停车；从两侧接近也须确认安全才可走。此静态画面的手臂姿势不清楚，应看手册插图辨认实际手势。",
+      "en": "Study the illustrated hand signals on page 47. For the front-and-back stop signal, approaching traffic in front of and behind the officer must stop. Traffic from either side may proceed when safe.",
+      "zh-Hans": "请参照第 47 页的手势图。警员作出前后方停车手势时，从警员前后方接近的车辆必须停车。从两侧接近的车辆可在确认安全后通行。",
       "pages": "47",
       "status": "context"
     },
@@ -1066,18 +961,6 @@
       "en": "Drugs, including medicines that cause drowsiness, can slow reactions and concentration. Check their effects and do not drive if impaired.",
       "zh-Hans": "药物（包括会使人困倦的药）会降低反应速度和注意力。应确认药物影响，能力受损时不要开车。",
       "pages": "65"
-    },
-    "q1131200": {
-      "en": "If you cannot locate the siren, slow down, check mirrors and surroundings, and make room when safe. Moving left may help in this scenario, but the handbook calls for the nearest safe edge rather than always the left.",
-      "zh-Hans": "听到警笛但无法判断方向时，先减速并查看后视镜和周围，安全时让出空间。此题选项是向左，但手册要求靠最近的安全路边，并非一律靠左。",
-      "pages": "62",
-      "status": "context"
-    },
-    "q1139800": {
-      "en": "Give way to the ambulance behind you. The keyed answer moves left, but the handbook says to signal and pull to the nearest safe edge, slowing or stopping if necessary.",
-      "zh-Hans": "给后方救护车让行。视频答案是向左靠，但手册要求打灯并靠最近的安全路边，必要时减速或停车。",
-      "pages": "62",
-      "status": "context"
     },
     "q1191200": {
       "en": "Use the appropriate right-hand lane for a permitted right turn; follow lane arrows and signal before positioning.",
@@ -1364,20 +1247,14 @@
       "pages": "72",
       "status": "context"
     },
-    "q2125400": {
-      "en": "The handbook describes easing and reapplying the brake to prevent or recover from wheel lock on slippery roads. Do not apply that as a universal ABS rule: in an emergency with ABS, press firmly and maintain pressure, following the vehicle manual.",
-      "zh-Hans": "手册在湿滑路面章节介绍松开并重新踩刹车以防止或解除车轮抱死。不要把这一方法用于所有 ABS 车辆；配有 ABS 时，紧急制动应持续用力踩住刹车，并遵循车辆手册。",
-      "pages": "66",
-      "status": "context"
-    },
     "q2142600": {
       "en": "In the diagram, A is the straight-through vehicle while B and C would turn through conflicting space. Let A clear it first.",
       "zh-Hans": "图中 A 直行，B、C 转弯会经过冲突区域，应先让 A 通过。",
       "pages": "52–53"
     },
     "q2151200": {
-      "en": "The keyed answer says neither A nor C gives way to B. Trace their intended routes: the handbook's junction rules apply to actual conflicts, not automatically to all three cars.",
-      "zh-Hans": "视频答案是 A、C 都不需要让 B。应沿箭头判断各车路线，手册的让行规则针对实际冲突，并不自动适用于图中所有车辆。",
+      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
+      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
       "pages": "52–53",
       "status": "context"
     },
@@ -1420,14 +1297,14 @@
       "pages": "51"
     },
     "q2305400": {
-      "en": "The keyed diagram has A yield to both B and C. Trace the turn arrows: A should wait until both conflicting movements clear before turning. Do not infer priority from the letters.",
-      "zh-Hans": "题图中 A 要让 B、C 两辆车。沿箭头看转弯路线：A 应等两条冲突路线都清空再转弯，不可按字母判断优先权。",
+      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
+      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
       "pages": "52–53",
       "status": "context"
     },
     "q2314000": {
-      "en": "The keyed diagram has B go ahead while A and C wait. Compare the straight path with the turning paths before deciding whether the junction is clear.",
-      "zh-Hans": "题图中 B 先走，A 和 C 等候。应比较直行与各转弯路线，再判断路口是否畅通。",
+      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
+      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
       "pages": "52–53",
       "status": "context"
     },
@@ -1497,19 +1374,9 @@
       "pages": "72",
       "status": "context"
     },
-    "q2571000": {
-      "en": "A safe pass on the left is an exception when the vehicle ahead is signalling to turn right; check that there is room rather than squeezing past.",
-      "zh-Hans": "前车打灯准备右转时可在安全条件下从左侧通过；应确认有足够空间，不可硬挤过去。",
-      "pages": "50"
-    },
     "q2579600": {
       "en": "Before and during reversing, check behind, including blind areas; look through the rear window when appropriate and use mirrors as aids. Never reverse out from a minor road into a main road.",
       "zh-Hans": "倒车前及倒车时都要观察后方及盲区；适合时转头透过后窗观察，后视镜仅作辅助。切勿从支路倒车驶入主路。",
-      "pages": "62"
-    },
-    "q2588200": {
-      "en": "Do not reverse from a minor road into a main road. It gives you limited sight of through traffic and leaves approaching drivers little time to react.",
-      "zh-Hans": "不得从支路倒车驶入主路。这样难以看清直行车流，迎面驶近的驾驶员也难以及时反应。",
       "pages": "62"
     },
     "q2605400": {
@@ -1603,22 +1470,10 @@
       "pages": "64, 72",
       "status": "context"
     },
-    "q2811000": {
-      "en": "Start normal braking early, apply enough pressure to slow predictably, and ease as you approach a smooth stop. The keyed wording is not a reason to slam on the brakes in ordinary traffic.",
-      "zh-Hans": "正常停车应提前制动，以足够的力度平稳减速，接近停稳时逐渐松力；不能把题目中的字眼理解为平时要猛踩刹车。",
-      "pages": "69",
-      "status": "context"
-    },
     "q2836800": {
       "en": "Do not squeeze past a rider or a vehicle negotiating the same entrance or turn. Slow down, keep back and complete your own turn after the path clears.",
       "zh-Hans": "不要贴身超越正在同一入口或弯道转向的骑士或车辆。应减速留在后方，等路线空出来再转弯。",
       "pages": "62, 64"
-    },
-    "q2862400": {
-      "en": "Once committed to a safe overtake, pass without lingering alongside. That does not authorise exceeding the speed limit or accelerating into a closing gap.",
-      "zh-Hans": "确认安全开始超车后，不要长时间并排行驶；这不允许超速，也不允许加速冲入正在缩小的空隙。",
-      "pages": "51",
-      "status": "context"
     },
     "q2888200": {
       "en": "The left arrow requires the turn shown. Notice whether its shape indicates the turn here or ahead, and follow the sign rather than treating it as advisory.",
@@ -1680,12 +1535,6 @@
       "zh-Hans": "图示手势要求从警员右方、前方及后方驶来的车辆停下；方向以警员自身朝向为准。",
       "pages": "47"
     },
-    "q3102400": {
-      "en": "The video uses a rough estimate of one car length per 10 km/h. The supplied handbooks teach a time gap rather than that formula: the English edition recommends at least three seconds normally, and more when conditions are poor.",
-      "zh-Hans": "视频使用每小时 10 公里留约一个车身长度的粗估方法。所给手册教的是按时间保持间隔，并非这一公式；英文版建议正常路况至少三秒，路况差时再加大。",
-      "pages": "61",
-      "status": "context"
-    },
     "q3119600": {
       "en": "A typical automatic car has an accelerator and a brake pedal; it does not have a driver-operated clutch pedal.",
       "zh-Hans": "一般自动挡汽车只有油门和刹车两个踏板，没有驾驶员操作的离合器踏板。",
@@ -1713,12 +1562,6 @@
       "en": "Adjust your seat so your elbows remain slightly bent when holding the wheel. This gives better control without stretching or locking your arms.",
       "zh-Hans": "调好座椅，使握方向盘时肘部稍弯，避免手臂伸太直或锁紧，以便更好控制方向。",
       "pages": "72",
-      "status": "context"
-    },
-    "q3188000": {
-      "en": "The conventional parking brake in the question acts on the rear wheels. Designs vary; use your vehicle manual rather than treating this as a universal mechanical rule.",
-      "zh-Hans": "题中的传统驻车制动作用于后轮。不同车型设计有别，应以车辆手册为准，不能把它当作所有车辆的机械规则。",
-      "pages": "56, 69",
       "status": "context"
     },
     "q3196600": {
@@ -1803,12 +1646,6 @@
       "zh-Hans": "右转横越对向车流前先减速，让对向车辆和正在横过你预定路线的行人先行，必要时停车。",
       "pages": "53, 62"
     },
-    "q3608000": {
-      "en": "A narrow training course may require positioning for clearance. Do not apply the keyed “more to the right” on a public road: the handbook says keep left and avoid swinging out before a left turn.",
-      "zh-Hans": "狭窄训练场地可能需要调整车身留出空间。不要把题中的“偏右”套用于公路；手册要求左转时靠左，避免先向右摆。",
-      "pages": "53",
-      "status": "context"
-    },
     "q3616600": {
       "en": "Oil can sharply reduce grip. Avoid the patch if you can do so safely; if unavoidable, slow beforehand and avoid abrupt steering or braking across it.",
       "zh-Hans": "油污会明显降低抓地力。能够安全避开就绕行；无法避开时应提前减速，通过时避免猛打方向或急刹。",
@@ -1816,14 +1653,14 @@
       "status": "context"
     },
     "q3642400": {
-      "en": "The keyed answer calls for stopping to check before this right turn. Obey the displayed signal first and yield to conflicting traffic; proceed only when permitted and safe.",
-      "zh-Hans": "此题答案要求在该处右转前停车观察。应先服从现场信号，并让有冲突路线的交通先行；获准且安全后再转。",
+      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
+      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
       "pages": "53, 69",
       "status": "context"
     },
     "q3650800": {
-      "en": "The keyed diagram has the two right-turning vehicles passing in front of one another. In real traffic follow the marked turning paths, obey the signals and check for other conflicting traffic.",
-      "zh-Hans": "题图的答案是两辆右转车从彼此前方通过。实际行驶须按标示转弯路线及信号通行，并留意其他冲突车辆。",
+      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
+      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
       "pages": "53",
       "status": "context"
     },
@@ -1897,11 +1734,6 @@
       "zh-Hans": "对向车越过中线时，应提前减速，在安全范围内靠左避让。不要坚持优先权，也不要猛打方向盘。",
       "pages": "50, 68"
     },
-    "q4096600": {
-      "en": "Mirrors do not cover the blind areas at the side; check directly before moving sideways.",
-      "zh-Hans": "后视镜照不到车身侧方的全部盲区，横向移动之前要直接查看。",
-      "pages": "60"
-    },
     "q4113600": {
       "en": "The new-driver probation period runs for one year from grant of the licence. Accumulating 13 or more points during that year results in revocation.",
       "zh-Hans": "新驾驶员从领证日起实习一年。在这一年累计 13 分或以上，驾驶执照将被吊销。",
@@ -1924,15 +1756,75 @@
       "pages": "72",
       "status": "context"
     },
-    "q4242200": {
-      "en": "If a rider starts to pass on your left, do not speed up, squeeze the gap or move across the rider. Slow gently if needed to reduce the immediate risk.",
-      "zh-Hans": "骑士已从你左侧超越时，不要加速、挤压空隙或横切其路线。必要时轻缓减速，降低眼前危险。",
-      "pages": "50, 64"
-    },
     "q4259400": {
       "en": "Before reversing, look directly behind for people and obstructions, including in the blind area. Mirrors help but do not replace looking back.",
       "zh-Hans": "倒车前应直接查看后方及盲区有无行人和障碍物。后视镜能辅助观察，但不能代替转头查看。",
       "pages": "62"
+    },
+    "q0068600-r2": {
+      "en": "The English handbook uses a minimum three-second gap in normal conditions, measured at a fixed object after the vehicle ahead passes it. The older Chinese handbook still describes two seconds. Allow more time on wet roads or in other poor conditions.",
+      "zh-Hans": "英文手册建议在正常路况下至少保持三秒间隔：以前车经过某个固定物体为起点计时。较早的中文版仍写两秒。湿路等不良条件下，应再拉大间隔。",
+      "pages": "61"
+    },
+    "q0685600-r2": {
+      "en": "The English handbook uses a minimum three-second gap in normal conditions, measured at a fixed object after the vehicle ahead passes it. The older Chinese handbook still describes two seconds. Allow more time on wet roads or in other poor conditions.",
+      "zh-Hans": "英文手册建议在正常路况下至少保持三秒间隔：以前车经过某个固定物体为起点计时。较早的中文版仍写两秒。湿路等不良条件下，应再拉大间隔。",
+      "pages": "61"
+    },
+    "q1122800-r2": {
+      "en": "The English handbook uses a minimum three-second gap in normal conditions, measured at a fixed object after the vehicle ahead passes it. The older Chinese handbook still describes two seconds. Allow more time on wet roads or in other poor conditions.",
+      "zh-Hans": "英文手册建议在正常路况下至少保持三秒间隔：以前车经过某个固定物体为起点计时。较早的中文版仍写两秒。湿路等不良条件下，应再拉大间隔。",
+      "pages": "61"
+    },
+    "q0077200-r2": {
+      "en": "The English handbook uses a minimum three-second gap in normal conditions, measured at a fixed object after the vehicle ahead passes it. The older Chinese handbook still describes two seconds. Allow more time on wet roads or in other poor conditions.",
+      "zh-Hans": "英文手册建议在正常路况下至少保持三秒间隔：以前车经过某个固定物体为起点计时。较早的中文版仍写两秒。湿路等不良条件下，应再拉大间隔。",
+      "pages": "61"
+    },
+    "q0762800-r2": {
+      "en": "Use height, not age, to choose the restraint. Below 1.35 m, use a suitable child restraint, booster seat or approved adjustable seat belt, as appropriate for the passenger. This is not an exemption from using a restraint.",
+      "zh-Hans": "应按身高而非年龄选择约束装置。身高不到 1.35 米的乘客，须按情况使用合适的儿童约束装置、增高座椅或获准的可调式安全带。这并不代表可以不受约束地乘车。",
+      "pages": "57"
+    },
+    "q2271200-r2": {
+      "en": "Use height, not age, to choose the restraint. Below 1.35 m, use a suitable child restraint, booster seat or approved adjustable seat belt, as appropriate for the passenger. This is not an exemption from using a restraint.",
+      "zh-Hans": "应按身高而非年龄选择约束装置。身高不到 1.35 米的乘客，须按情况使用合适的儿童约束装置、增高座椅或获准的可调式安全带。这并不代表可以不受约束地乘车。",
+      "pages": "57"
+    },
+    "q0145800-r2": {
+      "en": "The full-day bus lane operates from 7:30 a.m. to 11 p.m., Monday through Saturday, except public holidays. An ordinary bus lane operates on weekdays from 7:30 to 9:30 a.m. and 5 to 8 p.m., except public holidays.",
+      "zh-Hans": "全日制巴士车道在周一至周六早上 7:30 至晚上 11:00 限行，公共假日除外。普通巴士车道在周一至周五早上 7:30 至 9:30、傍晚 5:00 至 8:00 限行，公共假日除外。",
+      "pages": "40"
+    },
+    "q0754200-r2": {
+      "en": "The full-day bus lane operates from 7:30 a.m. to 11 p.m., Monday through Saturday, except public holidays. An ordinary bus lane operates on weekdays from 7:30 to 9:30 a.m. and 5 to 8 p.m., except public holidays.",
+      "zh-Hans": "全日制巴士车道在周一至周六早上 7:30 至晚上 11:00 限行，公共假日除外。普通巴士车道在周一至周五早上 7:30 至 9:30、傍晚 5:00 至 8:00 限行，公共假日除外。",
+      "pages": "40"
+    },
+    "q1131200-r2": {
+      "en": "Check your mirrors and surroundings. When giving way to an emergency vehicle, signal and pull to the nearest safe edge. Stop if necessary, but do not block a junction.",
+      "zh-Hans": "查看后视镜及周围情况。为紧急车辆让行时，先打灯，再安全靠向最近的路边。必要时停车，但不要堵住路口。",
+      "pages": "62"
+    },
+    "q2811000-r2": {
+      "en": "Brake early and smoothly when there is time to plan the stop. Avoid abrupt braking, especially when grip is poor.",
+      "zh-Hans": "来得及预判停车时，应提前平稳制动。避免猛踩刹车，尤其是在抓地力较差时。",
+      "pages": "66, 69"
+    },
+    "q2862400-r2": {
+      "en": "Overtake only if it is safe and you can stay within both the vehicle and road speed limits. If you cannot complete the manoeuvre safely, slow and return to your lane when there is a gap.",
+      "zh-Hans": "只有在安全且不超过车辆和道路限速时才超车。无法安全完成时，应减速并在有安全空隙时返回原车道。",
+      "pages": "50–52"
+    },
+    "q3608000-r2": {
+      "en": "Keep left and signal early for a left turn. Do not swing to the right before or after turning. Check for people and cyclists beside the vehicle.",
+      "zh-Hans": "左转前靠左并提前打灯。不要在转弯前或转弯后向右摆。注意车辆旁边的行人和骑行者。",
+      "pages": "53"
+    },
+    "q2554000-r2": {
+      "en": "Reduce speed before the bend so you can steer smoothly. A suitable gear depends on your speed and vehicle; there is no fixed gear for every bend.",
+      "zh-Hans": "入弯前先减速，以便平稳转向。合适的挡位取决于车速和车型，没有适用于所有弯道的固定挡位。",
+      "pages": "69"
     }
   }
 }

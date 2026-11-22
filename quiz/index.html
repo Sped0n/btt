@@ -69,13 +69,21 @@ function restoreSession(saved, kind) {
   if (saved?.kind !== kind) return null;
   const readyIds = new Set(ready.map(card => card.id));
   const { ids, index, result } = saved;
-  if (!Array.isArray(ids) || !ids.length || new Set(ids).size !== ids.length || !ids.every(id => readyIds.has(id))) return null;
+  if (!Array.isArray(ids) || !ids.length || new Set(ids).size !== ids.length || !ids.every(id => typeof id === 'string')) return null;
   if (!Number.isInteger(index) || index < 0 || index > ids.length) return null;
   if (result !== null) {
     if (index === ids.length) return null;
     if (result !== 'shown' && (!Number.isInteger(result) || !letters[result])) return null;
   }
-  return saved;
+  // A deck revision can retire questions without invalidating the rest of a session.
+  const remaining = ids.filter(id => readyIds.has(id));
+  if (!remaining.length) return null;
+  return {
+    kind,
+    ids: remaining,
+    index: ids.slice(0, index).filter(id => readyIds.has(id)).length,
+    result: readyIds.has(ids[index]) ? result : null,
+  };
 }
 
 function shuffled(cards) {
