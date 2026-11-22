@@ -24,13 +24,31 @@ jobs:
 
       - name: Set up Nix
         uses: cachix/install-nix-action@75c75c31ebece974e48ebc36b4ad125bd97bd97b # v31.11.3
+        with:
+          extra_nix_config: |
+            keep-env-derivations = true
+            keep-outputs = true
+
+      - name: Restore Nix store
+        id: nix-cache
+        uses: nix-community/cache-nix-action/restore@7df957e333c1e5da7721f60227dbba6d06080569 # v7
+        with:
+          primary-key: nix-store-check-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('**/*.nix', 'flake.lock') }}
+          restore-prefixes-first-match: nix-store-check-${{ runner.os }}-${{ runner.arch }}-
 
       - name: Run hooks and tests
         run: |
-          nix develop -c bash -e -c '
+          nix develop --profile "$RUNNER_TEMP/btt-check-shell" -c bash -e -c '
             prek run --all-files
             uv run --locked python -m unittest discover -s tests -v
           '
+
+      - name: Save Nix store
+        if: ${{ success() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.nix-cache.outputs.hit-primary-key != 'true' }}
+        uses: nix-community/cache-nix-action/save@7df957e333c1e5da7721f60227dbba6d06080569 # v7
+        with:
+          primary-key: ${{ steps.nix-cache.outputs.primary-key }}
+          gc-max-store-size: 1G
 
   deploy:
     needs: check
