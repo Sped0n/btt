@@ -25,7 +25,6 @@
   <button id="all" disabled>New session</button>
   <button id="resume" hidden>Resume session</button>
   <button id="missed" disabled>Review missed</button>
-  <button id="review" hidden>Review flagged</button>
 </nav>
 <p id="status" role="status" tabindex="-1">Loading deck…</p>
 <main id="card" hidden>
@@ -41,7 +40,7 @@
   </div>
   <button id="reveal" hidden>Show answer</button>
   <button id="next" hidden>Next</button>
-  <details id="source"><summary>Source</summary><p id="timestamp"></p><div id="evidence"></div></details>
+  <details id="source"><summary>Source</summary><p id="timestamp"></p></details>
 </main>
 <dialog id="image-preview" aria-label="Image preview">
   <img alt="">
@@ -51,7 +50,7 @@
 <script type="module">
 const el = id => document.getElementById(id);
 const letters = 'ABC';
-let ready = [], flagged = [], cardsById, missedKey, sessionKey, explanations;
+let ready = [], cardsById, missedKey, sessionKey, explanations;
 let missed = new Set(), session;
 const sessions = { all: null, missed: null };
 const current = () => cardsById.get(session.ids[session.index]);
@@ -96,7 +95,6 @@ function shuffled(cards) {
 }
 
 function saveSession() {
-  if (session.kind === 'flagged') return;
   sessions[session.kind] = session;
   save(sessionKey, { active: session.kind, ...sessions });
 }
@@ -146,7 +144,7 @@ function zoomablePicture(src, alt) {
 function render() {
   const card = current();
   const { kind, index, ids } = session;
-  const label = { all: 'Card', missed: 'Missed card', flagged: 'Flagged card' }[kind];
+  const label = kind === 'missed' ? 'Missed card' : 'Card';
   el('resume').hidden = kind === 'all' || !sessions.all;
   el('resume').textContent = inProgress(sessions.all) ? 'Resume session' : 'Back to session';
   displayMissedCount();
@@ -174,10 +172,8 @@ function render() {
   }
   const seconds = Math.floor(card.time);
   const time = `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
-  el('source').open = kind === 'flagged';
+  el('source').open = false;
   el('timestamp').textContent = `Video ${time}${card.number ? ` · question ${card.number} of ${card.total}` : ''}`;
-  el('evidence').replaceChildren();
-  if (kind === 'flagged' && card.evidence) el('evidence').append(picture(card.evidence, 'Source frame with answer marker'));
   renderChoices(card);
   displayAnswer();
   el('prompt').focus();
@@ -223,9 +219,8 @@ function renderChoices(card) {
 
 function displayAnswer() {
   const card = current();
-  const { result, kind } = session;
-  const reviewing = kind === 'flagged';
-  const graded = reviewing || result !== null;
+  const { result } = session;
+  const graded = result !== null;
   for (const [index, row] of Array.from(el('choices').children).entries()) {
     row.firstElementChild.disabled = graded;
     row.classList.toggle('correct', graded && index === card.answer);
@@ -233,8 +228,7 @@ function displayAnswer() {
   }
 
   let feedback = '';
-  if (reviewing) feedback = card.issues.join(' · ') + (card.answer === null ? '' : ` · Detected answer: ${letters[card.answer]}`);
-  else if (graded) {
+  if (graded) {
     const summary = result === 'shown' ? 'Answer shown.' : result === card.answer ? 'Correct.' : 'Incorrect.';
     feedback = `${summary} Answer: ${letters[card.answer]}`;
   }
@@ -246,7 +240,7 @@ function displayAnswer() {
 
 function grade(result) {
   const card = current();
-  if (!card || session.kind === 'flagged' || session.result !== null) return;
+  if (!card || session.result !== null) return;
   session.result = result;
   if (result === card.answer) missed.delete(card.id);
   else missed.add(card.id);
@@ -272,7 +266,6 @@ el('missed').onclick = () => {
   if (inProgress(sessions.missed)) openSession(sessions.missed);
   else start(shuffled(ready.filter(card => missed.has(card.id))), 'missed');
 };
-el('review').onclick = () => start(flagged, 'flagged');
 el('reveal').onclick = () => grade('shown');
 el('next').onclick = advance;
 document.addEventListener('keydown', event => {
@@ -304,21 +297,17 @@ try {
   if (notes?.source === deck.source) explanations = notes;
   cardsById = new Map(deck.cards.map(card => [card.id, card]));
   ready = deck.cards.filter(card => !card.issues.length && card.answer !== null);
-  flagged = deck.cards.filter(card => card.issues.length || card.answer === null);
   missedKey = `btt-missed:${deck.source}`;
   sessionKey = `btt-session:${deck.source}`;
   const savedMissed = readSaved(missedKey);
   if (Array.isArray(savedMissed)) missed = new Set(savedMissed);
   el('all').disabled = !ready.length;
-  el('review').hidden = !flagged.length;
-  if (flagged.length) el('review').textContent = `Review flagged (${flagged.length})`;
   const saved = readSaved(sessionKey);
   sessions.all = restoreSession(saved?.all ?? saved, 'all');
   sessions.missed = restoreSession(saved?.missed ?? saved, 'missed');
   const active = saved?.active ?? saved?.kind;
   const resume = active === 'missed' ? (sessions.missed ?? sessions.all) : (sessions.all ?? sessions.missed);
   if (resume) openSession(resume);
-  else if (!ready.length && flagged.length) start(flagged, 'flagged');
   else start(shuffled(ready), 'all');
 } catch (error) {
   el('status').textContent = `Could not load the deck: ${error.message}. Serve this directory over HTTP.`;

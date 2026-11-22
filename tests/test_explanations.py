@@ -28,14 +28,12 @@ class PublishedQuizTests(TestCase):
             self.assertNotIn(key, seen, f"{card['id']} duplicates {seen.get(key)}")
             seen[key] = card["id"]
 
-    def test_flagged_questions_have_no_gradeable_answer(self):
+    def test_every_published_question_can_be_graded(self):
         deck = json.loads((QUIZ / "deck.json").read_text(encoding="utf-8"))
         for card in deck["cards"]:
             with self.subTest(card=card["id"]):
-                if card["issues"]:
-                    self.assertIsNone(card["answer"])
-                else:
-                    self.assertIn(card["answer"], range(len(card["choices"])))
+                self.assertFalse(card["issues"])
+                self.assertIn(card["answer"], range(len(card["choices"])))
 
     def test_every_media_reference_resolves_inside_the_published_site(self):
         deck = json.loads((QUIZ / "deck.json").read_text(encoding="utf-8"))

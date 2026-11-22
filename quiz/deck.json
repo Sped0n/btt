@@ -2486,28 +2486,26 @@
       "evidence": null
     },
     {
-      "id": "q0951400",
+      "id": "q0951400-r2",
       "time": 955.6,
       "number": 22,
       "total": 50,
-      "prompt": "The signal given by the Policeman in the picture means",
+      "prompt": "Your traffic light is green, but a police officer directing the junction signals you to stop. What should you do?",
       "choices": [
         {
-          "text": "Vehicles approaching from his left and right to stop."
+          "text": "Stop as the officer directs."
         },
         {
-          "text": "Vehicles approaching from in front and behind him to stop."
+          "text": "Proceed because the light is green."
         },
         {
-          "text": "Vehicles approaching from all directions to stop."
+          "text": "Proceed if the vehicle behind you sounds its horn."
         }
       ],
-      "answer": null,
-      "image": "media/q0951400.webp",
+      "answer": 0,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The still does not show the officer’s gesture clearly enough to grade this question."
-      ],
+      "issues": [],
       "evidence": null
     },
     {
@@ -3569,28 +3567,26 @@
       "evidence": null
     },
     {
-      "id": "q1379800",
+      "id": "q1379800-r2",
       "time": 1384.1,
       "number": 21,
       "total": 50,
-      "prompt": "The signal of this policeman means vehicles approaching:",
+      "prompt": "At a junction, someone who is not authorised to direct traffic waves you through. What should you do?",
       "choices": [
         {
-          "text": "On his right and left to stop."
+          "text": "Follow the wave if the person can see the road."
         },
         {
-          "text": "From his front and behind to go."
+          "text": "Stop and wait for that person to wave again."
         },
         {
-          "text": "On his right and left to go."
+          "text": "Check the traffic yourself and proceed only when it is safe and permitted."
         }
       ],
-      "answer": null,
-      "image": "media/q1379800.webp",
+      "answer": 2,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The still does not show the officer’s gesture clearly enough to grade this question."
-      ],
+      "issues": [],
       "evidence": null
     },
     {
@@ -5411,28 +5407,26 @@
       "evidence": null
     },
     {
-      "id": "q2151200",
+      "id": "q2151200-r2",
       "time": 2155.4,
       "number": 27,
       "total": 50,
-      "prompt": "Which car(s) should give way to car B?",
+      "prompt": "You are going straight at an uncontrolled junction. A vehicle from your right is also going straight. Who must give way?",
       "choices": [
         {
-          "text": "Car C only."
+          "text": "The vehicle from the right."
         },
         {
-          "text": "Car A only."
+          "text": "You must give way to the vehicle from the right."
         },
         {
-          "text": "Neither Cars A or C to give way to Car B."
+          "text": "Neither vehicle needs to give way."
         }
       ],
-      "answer": null,
-      "image": "media/q2151200.webp",
+      "answer": 1,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The handbooks give general priority rules but do not confirm an answer for this diagram."
-      ],
+      "issues": [],
       "evidence": null
     },
     {
@@ -5781,53 +5775,49 @@
       "evidence": null
     },
     {
-      "id": "q2305400",
+      "id": "q2305400-r2",
       "time": 2309.7,
       "number": 26,
       "total": 50,
-      "prompt": "This diagram shows Cars A, B and C turning in the directions indicated at an uncontrolled junction. Which car must give way?",
+      "prompt": "You are turning right at an uncontrolled junction. An oncoming vehicle is turning left into the same road. Who must give way?",
       "choices": [
         {
-          "text": "Car A must give way to cars B and C."
+          "text": "You must give way to the oncoming vehicle."
         },
         {
-          "text": "Car B must give way to cars A and C."
+          "text": "The oncoming vehicle must give way to you."
         },
         {
-          "text": "Car C must give way to cars A and B."
+          "text": "Whoever signals first has priority."
         }
       ],
-      "answer": null,
-      "image": "media/q2305400.webp",
+      "answer": 0,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The handbooks give general priority rules but do not confirm an answer for this diagram."
-      ],
+      "issues": [],
       "evidence": null
     },
     {
-      "id": "q2314000",
+      "id": "q2314000-r2",
       "time": 2318.3,
       "number": 27,
       "total": 50,
-      "prompt": "This diagram shows Cars A, B and C going in the directions indicated at an uncontrolled junction. Which cars should give way?",
+      "prompt": "You are turning left at an uncontrolled junction. A vehicle from your right is going straight. What should you do?",
       "choices": [
         {
-          "text": "Cars A and C should give way to Car B."
+          "text": "Turn first because you are turning left."
         },
         {
-          "text": "Cars A and B should give way to Car C."
+          "text": "Give way only if the other vehicle is larger."
         },
         {
-          "text": "Cars B and C should give way to Car A."
+          "text": "Give way to the vehicle from your right."
         }
       ],
-      "answer": null,
-      "image": "media/q2314000.webp",
+      "answer": 2,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The handbooks give general priority rules but do not confirm an answer for this diagram."
-      ],
+      "issues": [],
       "evidence": null
     },
     {
@@ -8660,53 +8650,49 @@
       "evidence": null
     },
     {
-      "id": "q3642400",
+      "id": "q3642400-r2",
       "time": 3646.6,
       "number": 8,
       "total": 50,
-      "prompt": "Before turning right at this intersection, you should",
+      "prompt": "You intend to turn right. The right-turn arrow is red, and no traffic is approaching from the opposite direction. What should you do?",
       "choices": [
         {
-          "text": "Stop to ensure safety."
+          "text": "Turn right slowly while the road is clear."
         },
         {
-          "text": "Wait for the green traffic signal light to come on."
+          "text": "Stop behind the stop line and wait for a signal that permits the turn."
         },
         {
-          "text": "Not to stop or wait for the green traffic signal light to come on."
+          "text": "Stop, then turn right while the arrow is still red."
         }
       ],
-      "answer": null,
-      "image": "media/q3642400.webp",
+      "answer": 1,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The handbooks give general priority rules but do not confirm an answer for this diagram."
-      ],
+      "issues": [],
       "evidence": null
     },
     {
-      "id": "q3650800",
+      "id": "q3650800-r2",
       "time": 3655.1,
       "number": 9,
       "total": 50,
-      "prompt": "Both cars are turning right at this intersection. What path should they take?",
+      "prompt": "You are turning right into a two-way street. Which lane should you enter?",
       "choices": [
         {
-          "text": "Both cars pass in front of each other."
+          "text": "The lane immediately to the left of the centre line."
         },
         {
-          "text": "Pass behind each other."
+          "text": "The lane immediately to the right of the centre line."
         },
         {
-          "text": "Choose either depending on the traffic flow."
+          "text": "The lane furthest left, regardless of any lane markings."
         }
       ],
-      "answer": null,
-      "image": "media/q3650800.webp",
+      "answer": 0,
+      "image": null,
       "clip": null,
-      "issues": [
-        "The handbooks give general priority rules but do not confirm an answer for this diagram."
-      ],
+      "issues": [],
       "evidence": null
     },
     {

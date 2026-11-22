@@ -9,6 +9,8 @@
     "q0043000": "q0043000",
     "q0051400": "q0051400",
     "q0060000": "q0060000",
+    "q0068600-r2": "q0068600-r2",
+    "q0077200-r2": "q0077200-r2",
     "q0085800": "q0085800",
     "q0094400": "q0085800",
     "q0102800": "q0102800",
@@ -16,6 +18,7 @@
     "q0120000": "q0120000",
     "q0128600": "q0128600",
     "q0137200": "q0137200",
+    "q0145800-r2": "q0145800-r2",
     "q0154400": "q0154400",
     "q0162800": "q0162800",
     "q0171400": "q0171400",
@@ -77,11 +80,14 @@
     "q0660000": "q0043000",
     "q0668600": "q0668600",
     "q0677000": "q0060000",
+    "q0685600-r2": "q0685600-r2",
     "q0711400": "q0711400",
     "q0720000": "q0720000",
     "q0728600": "q0728600",
     "q0737000": "q0737000",
     "q0745600": "q0745600",
+    "q0754200-r2": "q0754200-r2",
+    "q0762800-r2": "q0762800-r2",
     "q0771400": "q0771400",
     "q0780000": "q0780000",
     "q0788400": "q0788400",
@@ -103,7 +109,7 @@
     "q0925600": "q0925600",
     "q0934200": "q0934200",
     "q0942800": "q0942800",
-    "q0951400": "q0951400",
+    "q0951400-r2": "q0951400-r2",
     "q0959800": "q0342800",
     "q0968400": "q0540000",
     "q0977000": "q0977000",
@@ -123,6 +129,8 @@
     "q1097000": "q0043000",
     "q1105600": "q0051400",
     "q1114200": "q0060000",
+    "q1122800-r2": "q1122800-r2",
+    "q1131200-r2": "q1131200-r2",
     "q1148400": "q0711400",
     "q1157000": "q0137200",
     "q1165600": "q0128600",
@@ -148,7 +156,7 @@
     "q1345600": "q1345600",
     "q1354200": "q0917000",
     "q1362600": "q0514200",
-    "q1379800": "q0951400",
+    "q1379800-r2": "q1379800-r2",
     "q1388400": "q0334200",
     "q1397000": "q0531400",
     "q1405600": "q0557200",
@@ -228,7 +236,7 @@
     "q2116800": "q0617000",
     "q2134000": "q1842600",
     "q2142600": "q2142600",
-    "q2151200": "q2151200",
+    "q2151200-r2": "q2151200-r2",
     "q2159600": "q0454200",
     "q2168200": "q2168200",
     "q2176800": "q0617000",
@@ -240,11 +248,12 @@
     "q2245400": "q2245400",
     "q2254000": "q2254000",
     "q2262600": "q2262600",
+    "q2271200-r2": "q2271200-r2",
     "q2279600": "q2279600",
     "q2288200": "q2288200",
     "q2296800": "q2296800",
-    "q2305400": "q2305400",
-    "q2314000": "q2314000",
+    "q2305400-r2": "q2305400-r2",
+    "q2314000-r2": "q2314000-r2",
     "q2322600": "q2322600",
     "q2331000": "q2331000",
     "q2339600": "q2339600",
@@ -267,6 +276,7 @@
     "q2528200": "q2528200",
     "q2536800": "q2528200",
     "q2545400": "q2545400",
+    "q2554000-r2": "q2554000-r2",
     "q2562400": "q2562400",
     "q2579600": "q2579600",
     "q2596800": "q2322600",
@@ -290,11 +300,13 @@
     "q2785400": "q2785400",
     "q2793800": "q2793800",
     "q2802400": "q2802400",
+    "q2811000-r2": "q2811000-r2",
     "q2819600": "q2082600",
     "q2828200": "q1688400",
     "q2836800": "q2836800",
     "q2845200": "q0342800",
     "q2853800": "q1825400",
+    "q2862400-r2": "q2862400-r2",
     "q2888200": "q2888200",
     "q2896800": "q2896800",
     "q2905200": "q2905200",
@@ -362,10 +374,11 @@
     "q3582400": "q3316600",
     "q3590800": "q2356800",
     "q3599400": "q2356800",
+    "q3608000-r2": "q3608000-r2",
     "q3616600": "q3616600",
     "q3633800": "q1619800",
-    "q3642400": "q3642400",
-    "q3650800": "q3650800",
+    "q3642400-r2": "q3642400-r2",
+    "q3650800-r2": "q3650800-r2",
     "q3676600": "q3676600",
     "q3685200": "q3676600",
     "q3702200": "q1868400",
@@ -412,20 +425,7 @@
     "q4233600": "q2519600",
     "q4250800": "q2579600",
     "q4259400": "q4259400",
-    "q4268000": "q2605400",
-    "q0068600-r2": "q0068600-r2",
-    "q0685600-r2": "q0685600-r2",
-    "q1122800-r2": "q1122800-r2",
-    "q0077200-r2": "q0077200-r2",
-    "q0762800-r2": "q0762800-r2",
-    "q2271200-r2": "q2271200-r2",
-    "q0145800-r2": "q0145800-r2",
-    "q0754200-r2": "q0754200-r2",
-    "q1131200-r2": "q1131200-r2",
-    "q2811000-r2": "q2811000-r2",
-    "q2862400-r2": "q2862400-r2",
-    "q3608000-r2": "q3608000-r2",
-    "q2554000-r2": "q2554000-r2"
+    "q4268000": "q2605400"
   },
   "rules": {
     "q0000000": {
@@ -905,12 +905,6 @@
       "zh-Hans": "橙灯长亮应停车；如果已经太靠近停止线，无法安全停车，则是例外。",
       "pages": "44"
     },
-    "q0951400": {
-      "en": "Study the illustrated hand signals on page 47. For the front-and-back stop signal, approaching traffic in front of and behind the officer must stop. Traffic from either side may proceed when safe.",
-      "zh-Hans": "请参照第 47 页的手势图。警员作出前后方停车手势时，从警员前后方接近的车辆必须停车。从两侧接近的车辆可在确认安全后通行。",
-      "pages": "47",
-      "status": "context"
-    },
     "q0977000": {
       "en": "A brief horn warning can alert a driver who is drifting and may not have seen you. Create space and abandon the pass if unsafe; do not rely on the horn to gain priority.",
       "zh-Hans": "短按喇叭可提醒正在偏离车道且可能没看到你的驾驶员。应拉开距离，不安全时放弃超车，不能靠鸣笛取得优先权。",
@@ -1252,12 +1246,6 @@
       "zh-Hans": "图中 A 直行，B、C 转弯会经过冲突区域，应先让 A 通过。",
       "pages": "52–53"
     },
-    "q2151200": {
-      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
-      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
-      "pages": "52–53",
-      "status": "context"
-    },
     "q2168200": {
       "en": "Wait for pedestrians already crossing the side road before turning. Turning traffic must not cut across the person crossing.",
       "zh-Hans": "左转进入支路前，应等正在过路的行人通过，不要转弯抢行截断其路线。",
@@ -1295,18 +1283,6 @@
       "en": "After passing, wait until you can see the overtaken vehicle in the interior mirror, then signal and return left if clear. This leaves a useful buffer before cutting back in.",
       "zh-Hans": "超车后，等能在车内后视镜看到被超车辆，再打灯并确认安全靠回左侧，以留出足够间距。",
       "pages": "51"
-    },
-    "q2305400": {
-      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
-      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
-      "pages": "52–53",
-      "status": "context"
-    },
-    "q2314000": {
-      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
-      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
-      "pages": "52–53",
-      "status": "context"
     },
     "q2322600": {
       "en": "Replace tyres with less than 1.6 mm of tread. Bald tyres lose wet grip and make skids and longer stopping distances more likely.",
@@ -1652,18 +1628,6 @@
       "pages": "66, 68",
       "status": "context"
     },
-    "q3642400": {
-      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
-      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
-      "pages": "53, 69",
-      "status": "context"
-    },
-    "q3650800": {
-      "en": "Use the signs, signals and road markings to determine priority. Before turning, give way to conflicting traffic and pedestrians as required. Do not use the recording’s answer to this diagram as a general rule.",
-      "zh-Hans": "根据交通标志、信号和标线判断优先顺序。转弯前按规定让有路线冲突的车辆和行人先行。不要把视频中此图的答案当成通用规则。",
-      "pages": "53",
-      "status": "context"
-    },
     "q3676600": {
       "en": "For a non-probationary driver without a prior suspension record, the first suspension threshold is 24 points in 24 consecutive months. A driver with a prior suspension has a different threshold.",
       "zh-Hans": "没有停牌记录的非实习驾驶员，在连续 24 个月内累计达到 24 分会触发首次停牌。有停牌记录者适用不同门槛。",
@@ -1825,6 +1789,41 @@
       "en": "Reduce speed before the bend so you can steer smoothly. A suitable gear depends on your speed and vehicle; there is no fixed gear for every bend.",
       "zh-Hans": "入弯前先减速，以便平稳转向。合适的挡位取决于车速和车型，没有适用于所有弯道的固定挡位。",
       "pages": "69"
+    },
+    "q0951400-r2": {
+      "en": "Follow the officer’s stop signal. Signals from a police officer directing traffic take precedence over traffic lights, signs and road markings.",
+      "zh-Hans": "应按警员的手势停车。指挥交通的警员所发出的手势优先于交通灯、交通标志和路面标线。",
+      "pages": "47"
+    },
+    "q1379800-r2": {
+      "en": "Do not rely on an unauthorised person’s signal to proceed. At a junction, look right, left and right again. Follow the applicable signs and signals and move only when safe.",
+      "zh-Hans": "不要凭未经授权的人员的手势驶入路口。先看右方，再看左方，然后再看右方。遵守适用的标志和信号，确认安全后才前进。",
+      "pages": "53"
+    },
+    "q2151200-r2": {
+      "en": "When both vehicles are going straight at an uncontrolled junction, give way to the vehicle approaching from your right.",
+      "zh-Hans": "在没有交通管制的路口，两辆车都要直行时，应让从右方驶来的直行车辆先行。",
+      "pages": "52"
+    },
+    "q2305400-r2": {
+      "en": "At an uncontrolled junction, a driver turning right must give way to traffic turning left from the opposite direction.",
+      "zh-Hans": "在没有交通管制的路口，右转车辆必须让对面驶来并左转的车辆先行。",
+      "pages": "52"
+    },
+    "q2314000-r2": {
+      "en": "When turning left at an uncontrolled junction, give way to vehicles going straight from your right.",
+      "zh-Hans": "在没有交通管制的路口左转时，应让从右方驶来的直行车辆先行。",
+      "pages": "52"
+    },
+    "q3642400-r2": {
+      "en": "A red right-turn arrow requires you to stop behind the stop line. Do not turn right even if there is no oncoming traffic.",
+      "zh-Hans": "右转红箭头要求车辆在停止线前停车。即使没有对向来车，也不可在红箭头亮起时右转。",
+      "pages": "45"
+    },
+    "q3650800-r2": {
+      "en": "When turning right into a two-way street, enter the lane just left of its centre line. Follow any markings or signs that direct turning traffic.",
+      "zh-Hans": "右转驶入双向道路时，应驶入紧靠该道路中心线左侧的车道，并遵守指示转弯路线的标线或标志。",
+      "pages": "53"
     }
   }
 }
