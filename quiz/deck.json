@@ -469,7 +469,7 @@
       "prompt": "This sign means",
       "choices": [
         {
-          "image": "media/q0171400-A.webp"
+          "text": "No waiting."
         },
         {
           "text": "No entry."
@@ -2539,7 +2539,7 @@
       "prompt": "When approaching a junction and the traffic lights signal change from green to amber, you should",
       "choices": [
         {
-          "text": "to cide stop line unless you are so close that sudden or sharp braking might cause"
+          "text": "Stop at the stop line unless you are so close that sudden or sharp braking might cause an accident."
         },
         {
           "text": "Speed up to clear the intersection."
@@ -5673,7 +5673,7 @@
           "text": "Rest your left foot on the clutch pedal."
         },
         {
-          "image": "media/q2108200-C.webp"
+          "text": "Rest your left foot on the floor board."
         }
       ],
       "answer": 2,
@@ -8318,7 +8318,7 @@
           "text": "Pull over to the left or right side of the road."
         },
         {
-          "image": "media/q3093800-C.webp"
+          "text": "Sound your horn to warn the front vehicles to speed up."
         }
       ],
       "answer": 1,
@@ -10411,7 +10411,7 @@
           "text": "7 pm to 6 am."
         },
         {
-          "image": "media/q3873600-C.webp"
+          "text": "7 pm to 7 am."
         }
       ],
       "answer": 2,
@@ -10710,7 +10710,7 @@
           "text": "Give yourself more time in overtaking the cyclist."
         },
         {
-          "image": "media/q3985200-C.webp"
+          "text": "Overtake the cyclist quickly and quietly."
         }
       ],
       "answer": 1,

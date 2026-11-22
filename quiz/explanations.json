@@ -1006,8 +1006,8 @@
       "status": "context"
     },
     "q0942800": {
-      "en": "Steady amber means stop unless doing so would be unsafe because you are already too close to the stop line. The first option in this card has an OCR error; it describes that exception.",
-      "zh-Hans": "橙灯长亮应停车；如果已经太靠近停止线，无法安全停车，则是例外。此题第一个选项有文字识别错误，它所说的就是这一例外。",
+      "en": "Steady amber means stop unless doing so would be unsafe because you are already too close to the stop line.",
+      "zh-Hans": "橙灯长亮应停车；如果已经太靠近停止线，无法安全停车，则是例外。",
       "pages": "44"
     },
     "q0951400": {

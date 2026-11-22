@@ -9,7 +9,7 @@ from contextlib import contextmanager
 from pathlib import Path
 from typing import TypedDict
 
-from PIL import Image
+from PIL import Image, ImageOps
 
 from .video import panel_has_motion, read_frame, write_panel_clip
 
@@ -161,6 +161,25 @@ def option_picture(image: Image.Image, row: Box, text: str) -> Image.Image | Non
     return None
 
 
+def recover_choice_text(picture: Image.Image, recognize: Recognizer) -> str | None:
+    # Wide fallback crops can be text that Vision missed in the full frame.
+    if picture.width < 2 * picture.height:
+        return None
+    enlarged = picture.resize(
+        (picture.width * 2, picture.height * 2), Image.Resampling.LANCZOS
+    )
+    try:
+        lines = recognize(ImageOps.expand(enlarged, border=24, fill="white"))
+    except TimeoutError:
+        return None
+    if not lines or min(line["confidence"] for line in lines) < 0.85:
+        return None
+    text = text_of(sorted(lines, key=lambda line: (line["y"], line["x"])))
+    if sum(any(char.isalnum() for char in word) for word in text.split()) < 2:
+        return None
+    return text
+
+
 def extract_card(
     video: Path,
     interval: tuple[float, float],
@@ -202,9 +221,13 @@ def extract_card(
             text = ""
         picture = option_picture(image, row, text)
         if picture is not None:
-            choices.append(
-                {"image": save_image(picture, output, f"{card_id}-{letter}")}
-            )
+            recovered = recover_choice_text(picture, recognize) if not text else None
+            if recovered is not None:
+                choices.append({"text": recovered})
+            else:
+                choices.append(
+                    {"image": save_image(picture, output, f"{card_id}-{letter}")}
+                )
         else:
             choices.append({"text": text})
             if (
